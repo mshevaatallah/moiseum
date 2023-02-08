@@ -13,7 +13,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          test drive coy
+          test halo
         </a>
       </header>
     </div>
