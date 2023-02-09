@@ -1,7 +1,7 @@
 import React from "react";
 
 function Pages4() {
-  return <div>Pages4</div>;
+  return <div>ooioi</div>;
 }
 
 export default Pages4;
