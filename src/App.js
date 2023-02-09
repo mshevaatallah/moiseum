@@ -13,7 +13,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React bareng Shev aja
+          Learn React bareng ac aaja
         </a>
       </header>
     </div>
