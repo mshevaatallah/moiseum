@@ -1,7 +1,7 @@
 import React from "react";
 
 function Pages4() {
-  return <div>eheh</div>;
+  return <div>ya</div>;
 }
 
 export default Pages4;
