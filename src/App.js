@@ -11,7 +11,7 @@ export default function App() {
   return (
 /* Main Container */
     <Wrapper>
-      <Spline className="spline" scene="https://prod.spline.design/GF6Cxoiu-CRodU8Z/scene.splinecode" />
+      <Spline className="spline" scene="https://prod.spline.design/B3HpeDDoVc4XKk-G/scene.splinecode" />
       <Social>
         <div />
         <img src={IconTwitter} alt="Twitter" />
