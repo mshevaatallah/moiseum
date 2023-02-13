@@ -2,11 +2,15 @@ import React from "react";
 import { BsFillPlayFill } from "react-icons/bs";
 function Home() {
   return (
-    <div>
+    <div className="background">
       <div className="container-main">
         <p>hai</p>
       </div>
       <div className="explore">
+        <div className="ie">
+          <span></span>
+        </div>
+
         <div className="title-container">
           {" "}
           <h1>Our story chapters</h1>
