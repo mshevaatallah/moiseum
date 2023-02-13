@@ -42,7 +42,7 @@ function Footer() {
             <h3>BE THE FIRST TO HEAR VIRTUAL SMART-MUSEUM NEWS</h3>
             <input type="text" />
             <span>E-MAIL</span>
-            <button>SUBSRIBE</button>
+            <button>SUBSCRIBE</button>
           </div>
         </div>
       </footer>
