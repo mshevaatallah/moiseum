@@ -3,6 +3,7 @@ import { BsFillPlayFill } from "react-icons/bs";
 import Patung from "../images/patungdipo.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Footer from "../components/Footer";
 function Home() {
   useEffect(() => {
     AOS.init();
@@ -148,47 +149,7 @@ function Home() {
           <img src={Patung} alt="" width={240} />
         </div> */}
       </div>
-      <footer>
-        <div className="footer">
-          <div className="row">
-            <a href="#">
-              <i className="fa fa-facebook" />
-            </a>
-            <a href="#">
-              <i className="fa fa-instagram" />
-            </a>
-            <a href="#">
-              <i className="fa fa-youtube" />
-            </a>
-            <a href="#">
-              <i className="fa fa-twitter" />
-            </a>
-          </div>
-          <div className="row">
-            <ul>
-              <li>
-                <a href="#">Contact us</a>
-              </li>
-              <li>
-                <a href="#">Our Services</a>
-              </li>
-              <li>
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li>
-                <a href="#">Terms &amp; Conditions</a>
-              </li>
-              <li>
-                <a href="#">Career</a>
-              </li>
-            </ul>
-          </div>
-          <div className="row">
-            INFERNO Copyright © 2021 Inferno - All rights reserved || Designed
-            By: Mahesh
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
