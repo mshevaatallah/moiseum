@@ -1,13 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700;900&family=Poppins:wght@500;600&display=swap");
+* {
+  margin: 0% 0% 0% 0%;
+  padding: 0;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.container-main {
+  background-color: aqua;
+  height: 70vh;
+  margin: 0;
+}
+
+.explore {
+  background-color: #191d23;
+  padding: 20px;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+.title-container {
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.title-container h1 {
+  color: white;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  max-width: 300px;
+  line-height: 60px;
+}
+.card-container {
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+}
+
+.card-container::-webkit-scrollbar {
+  display: none;
+}
+.card-container .card {
+  background-color: rgba(247, 249, 247, 0);
+  min-width: 300px;
+  height: 400px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+  transition: all 0.3s ease-in-out;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(121, 198, 245);
+}
+
+.new-badge {
+  background-color: #3595e9;
+  text-align: center;
+  color: #cde8f9;
+  width: 40px;
+  padding: 8px 20px;
+  border-radius: 15px 15px 15px 15px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-left: 25px;
+  margin-top: 24px;
+}
+
+.title-card {
+  color: #f3f8fb;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+
+  margin: 0;
+  padding: 0;
+  max-width: 200px;
+  line-height: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.desc-card {
+  color: #b6b9bb;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  max-width: 250px;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.card-container .card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.card-container .card:hover .new-badge {
+  background-color: #f3f8fb;
+  color: #3595e9;
+}
+
+.play-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #3595e9;
+  margin-top: 40px;
+  margin-left: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-button .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #b4cfdf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .explore {
+    display: flex;
+    flex-direction: column;
+  }
+  .title-container {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+  .card-container {
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+  }
 }
