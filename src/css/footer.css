@@ -84,7 +84,11 @@ footer .row .col2 .social{
     font-size: 20px;
     width: 100%;
     letter-spacing: 30px;
-    
+    transition: .5s;
+}
+
+footer .row .col2 .social i{
+    transition: .3s;
 }
 footer .row .col2 .social i:hover{
     color: white;
