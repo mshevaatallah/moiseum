@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Footer from "./components/footer";
 import Home from "./pages/Home";
 import Pages2 from "./pages/Pages2";
 import Pages3 from "./pages/Pages3";
@@ -19,6 +20,7 @@ function App() {
           <Route path="/sejarah5" element={<Pages6 />} />
         </Routes>
       </BrowserRouter>
+      <Footer/>
     </div>
   );
 }
