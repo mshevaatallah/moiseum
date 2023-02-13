@@ -13,10 +13,35 @@ function Home() {
       <div className="container-main">
         <p>hai</p>
       </div>
+      <div className="about-container">
+        <div className="ie" data-aos="fade-right">
+          <span></span>
+        </div>
+        <div className="about-border" data-aos="fade-up">
+          <div className="about-title fade-right" data-aos="fade-up">
+            <h1>
+              About Mois<span style={{ color: "#4aa9f7" }}>eum</span> Exhibition
+            </h1>
+          </div>
+          <div className="about-imagess" data-aos="fade-up">
+            <img src={Patung} alt="" />
+          </div>
 
+          <div className="about-desc" data-aos="fade-up">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam
+              eius mollitia cumque culpa qui similique magni, atque id. Et, ea.
+              Tempora magni earum, doloribus doloremque at a ipsam accusantium.
+              Nobis porro, debitis consequuntur inventore consequatur nam ut
+              atque? Unde, ducimus!
+            </p>
+            <div className="button-readmore">READ MORE</div>
+          </div>
+        </div>
+      </div>
       {/* // ini adalah bagian about// */}
       <div className="explore">
-        <div className="ie" data-aos="fade-right">
+        <div className="ie-2" data-aos="fade-right">
           <span></span>
         </div>
         <div className="container-flex" data-aos="fade-right">
@@ -122,32 +147,6 @@ function Home() {
         {/* <div className="container-hatta">
           <img src={Patung} alt="" width={240} />
         </div> */}
-      </div>
-      <div className="about-container">
-        <div className="ie-2" data-aos="fade-right">
-          <span></span>
-        </div>
-        <div className="about-border" data-aos="fade-up">
-          <div className="about-title fade-right" data-aos="fade-up">
-            <h1>
-              About Mois<span style={{ color: "#4aa9f7" }}>eum</span> Exhibition
-            </h1>
-          </div>
-          <div className="about-imagess" data-aos="fade-up">
-            <img src={Patung} alt="" />
-          </div>
-
-          <div className="about-desc" data-aos="fade-up">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam
-              eius mollitia cumque culpa qui similique magni, atque id. Et, ea.
-              Tempora magni earum, doloribus doloremque at a ipsam accusantium.
-              Nobis porro, debitis consequuntur inventore consequatur nam ut
-              atque? Unde, ducimus!
-            </p>
-            <div className="button-readmore">READ MORE</div>
-          </div>
-        </div>
       </div>
 
       <Footer />
