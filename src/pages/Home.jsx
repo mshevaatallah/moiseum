@@ -1,13 +1,35 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { BsFillPlayFill } from "react-icons/bs";
 import Patung from "../images/grouping.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
+import $ from "jquery";
 function Home() {
   useEffect(() => {
     AOS.init();
   }, []);
+  const [isLoading, setLoading] = useState(true);
+  function someRequest() {
+    //Simulates a request; makes a "promise" that'll run for 2.5 seconds
+    return new Promise((resolve) => setTimeout(() => resolve(), 2500));
+  }
+
+  useEffect(() => {
+    someRequest().then(() => {
+      const loaderElement = document.querySelector(".loader-container");
+      if (loaderElement) {
+        loaderElement.remove();
+        setLoading(!isLoading);
+      }
+    });
+  });
+
+  if (isLoading) {
+    //
+    return null;
+  }
+
   return (
     <div>
       <div className="container-main">
@@ -20,11 +42,11 @@ function Home() {
         <div className="about-border" data-aos="fade-up">
           <div className="about-title fade-right" data-aos="fade-up">
             <h1>
-              About Mois<span style={{ color: "#4aa9f7" }}>eum</span> Exhibition
+              About <span style={{ color: "#4aa9f7" }}>Moi</span>seum Exhibition
             </h1>
           </div>
           <div className="about-imagess" data-aos="fade-up">
-            <img src={Patung} alt="" />
+            <img src={Patung} alt="" className="images-patung" />
           </div>
 
           <div className="about-desc" data-aos="fade-up">

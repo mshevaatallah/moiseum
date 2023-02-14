@@ -49,6 +49,7 @@ code {
   height: max-content;
   padding-bottom: 100px;
   margin: 0;
+  position: relative;
 }
 .container-flex {
   display: flex;
@@ -56,9 +57,9 @@ code {
 .ie {
   background-color: #2571e471;
 
-  filter: blur(100px);
-  -webkit-filter: blur(100px);
-  width: 500px;
+  filter: blur(70px);
+  -webkit-filter: blur(70px);
+  width: 800px;
   position: absolute;
   border-radius: 100%;
   border-top-top-radius: 110px; /* 100px of height + 10px of border */
@@ -368,7 +369,7 @@ code {
 }
 
 .about-imagess img {
-  max-width: 800px;
+  width: 1000px;
   margin-left: 100px;
   filter: brightness(60%);
 }
@@ -376,7 +377,7 @@ code {
 @media screen and (max-width: 30000px) {
   .about-imagess {
     position: absolute;
-    right: 180px;
-    top: 60px;
+    right: 120px;
+    top: -70px;
   }
 }
