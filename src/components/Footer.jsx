@@ -22,19 +22,18 @@ function Footer() {
                 <a href="#">Museum</a>
               </li>
               <li>
-                <a href="#">Exposition</a>
-              </li>
-              <li>
                 <a href="#">About</a>
               </li>
               <li>
-                <a href="#">Audio</a>
+                <a href="#">Chapters</a>
+              </li>
+              <li>
+                <a href="#">Our Teams</a>
               </li>
             </ul>
             <div className="social">
               <i class="fa-brands fa-facebook-f"></i>
-              <i class="fa-brands fa-behance"></i>
-              <i class="fa-brands fa-linkedin"></i>
+
               <i class="fa-brands fa-instagram"></i>
             </div>
           </div>
