@@ -42,7 +42,11 @@ function Home() {
         <div className="about-border" data-aos="fade-up">
           <div className="about-title fade-right" data-aos="fade-up">
             <h1>
-              About <span style={{ color: "#4aa9f7" }}>Moi</span>seum Exhibition
+              About{" "}
+              <span>
+                <span style={{ color: "#4aa9f7" }}>Moi</span>seum
+              </span>{" "}
+              Exhibition
             </h1>
           </div>
           <div className="about-imagess" data-aos="fade-up">
