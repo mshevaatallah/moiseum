@@ -381,3 +381,34 @@ code {
     top: -70px;
   }
 }
+
+.container-tes {
+  background-color: #191d23;
+  height: 100vh;
+}
+
+.card-team {
+  background-color: #191d23;
+  height: 100vh;
+  padding: 50px;
+  padding-bottom: 40px;
+  padding-top: 200px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.card-team-item {
+  background-color: rgba(247, 249, 247, 0);
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+  transition: all 0.3s ease-in-out;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(121, 198, 245);
+}
