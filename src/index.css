@@ -87,7 +87,6 @@ code {
 .title-container {
   margin-top: 50px;
   margin-left: 70px;
-  z-index: 999;
 }
 
 .title-container h1 {
@@ -105,11 +104,12 @@ code {
   display: flex;
   align-items: center;
   overflow-x: auto;
-  z-index: 999;
+
   transition: all 0.3s ease-in-out;
 }
 
 .card-container::-webkit-scrollbar {
+  display: none;
   width: 0;
 }
 .card-container .card {
