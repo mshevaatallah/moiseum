@@ -5,6 +5,23 @@ div{
     font-family: 'Poppins', sans-serif;
     
 }
+
+.element img{
+    width: 160px;
+
+}
+
+.element{
+    top: 125px;
+    z-index: 1;
+    transform: rotate(150deg);
+   left: auto;
+   right: 800px;
+    width: 200px;
+    position: absolute;
+
+}
+
 footer{
     border-top: #2b262c;
     background: #191c21;
@@ -15,6 +32,7 @@ footer{
     position: absolute;
     width: 100%;
     bottom: 0;
+    position: absolute;
 }
 
 footer .row{
@@ -295,8 +313,58 @@ footer .footer-wrap p{
         left: -8px;
     }
 
-    
+    .element img{
+        width: 45px;
+    }
+
+    .element{
+        top: 26px;
+        /* bottom: -15px; */
+        right: 15px;
+        width: 5px;
+        height: 5px;
+    }
+
 }
+
+@media screen and (max-width:1189px) {
+    footer{
+        position: unset;
+        /* padding: 50px 0 2px; */
+    }
+    footer .row .col{
+        flex-basis: 50%;
+        padding: 0;
+    }
+    footer .row .col2 ul{
+        grid-template-columns: 1fr 2fr;
+        display: grid;
+        line-height: 20px;
+        gap: 10;
+        margin-left: -55px;
+    }
+
+    footer .row .col2 .social{
+        margin-left: -50px;
+        letter-spacing: 18px;
+        /* width: 100%; */
+        margin-bottom: 30px;
+        /* background-color: rebeccapurple; */
+    }
+
+
+    .element{
+        transform: rotate(14deg);
+        top: -80px;
+        left: 496px;
+        width: 170px;
+        height: 170px;
+    }
+}
+
+
+
+
 
 
 /* @media (max-wdith:800px) {

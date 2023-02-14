@@ -1,9 +1,13 @@
 import React from "react";
 import "../css/footer.css";
 import Logo from '../assets/coeg.png';
+import Element from '../assets/element.png';
 
 function Footer() {
   return <div>
+            <div className="element">
+                <img src={Element}/>
+            </div>
         <footer>
             <div className="row">
                 <div className="col col1">
