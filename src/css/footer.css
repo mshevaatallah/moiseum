@@ -74,7 +74,7 @@ footer .row .col2 ul {
 
 footer .row .col2 .social {
   cursor: pointer;
-  margin-left: 30px;
+  margin-left: -90px;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
   /* background-color: #296; */
@@ -257,7 +257,7 @@ footer .footer-wrap p {
   }
 
   footer .row .col2 .social {
-    margin-left: -80px;
+    margin-left: -180px;
     letter-spacing: 18px;
     /* width: 100%; */
     margin-bottom: 30px;
@@ -285,5 +285,20 @@ footer .footer-wrap p {
 
   footer .row .col3 h3 {
     left: -8px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  footer .row .col2 .social {
+    margin-left: -100px;
+
+    /* background-color: rebeccapurple; */
+  }
+  footer .row .col1 p {
+    /* background-color: rebeccapurple; */
+    line-height: 40px;
+    font-size: 32px;
+    /* height: 2px; */
+    width: 280px;
   }
 }
