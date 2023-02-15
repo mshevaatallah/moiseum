@@ -1,17 +1,11 @@
 /* section about */
-.container-about-bpupki {
-  background-color: #191d23;
-  height: 100vh;
-}
-
-/* section tokoh */
-
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700;900&family=Poppins:wght@500;600&display=swap");
 .background-circle {
   background-color: #d0151871;
 
   filter: blur(300px);
   -webkit-filter: blur(300px);
-  width: 800px;
+  width: 500px;
   position: absolute;
   border-radius: 100%;
   border-top-top-radius: 110px; /* 100px of height + 10px of border */
@@ -22,10 +16,98 @@
   transition: all 0.8s ease-in-out;
 }
 
+.container-about-bpupki {
+  background-color: #191d23;
+  height: 1000px;
+}
+.image-about-container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.image1 {
+  height: 300px;
+  width: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.image1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.image2 {
+  height: 300px;
+  width: 200px;
+  margin-right: 20px;
+  margin-top: 150px;
+}
+
+.image2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.image3 {
+  height: 300px;
+  width: 200px;
+  margin-right: 20px;
+  margin-top: 100px;
+}
+
+.image3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.image4 {
+  height: 300px;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.image4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.about-bpupki-container {
+  padding-top: 100px;
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.title-bpupki {
+  font-size: 30px;
+  color: #fff;
+
+  margin-bottom: 20px;
+
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 900;
+  max-width: 300px;
+  line-height: 60px;
+}
+.desc-bpupki {
+  max-width: 400px;
+  font-family: "Poppins";
+  color: #fff;
+}
+/* section tokoh */
+
 .container-tokoh-bpupki {
   background-color: #191d23;
   height: 100vh;
   display: flex;
+  padding-top: 160px;
 }
 
 .card-team {
@@ -145,6 +227,13 @@
   .background-circle {
     width: 300px;
     filter: blur(150px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-bpupki-container {
+    flex-direction: column;
+    margin-left: 20px;
   }
 }
 /* @media screen and (min-width: 1330px) {

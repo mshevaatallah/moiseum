@@ -4,6 +4,10 @@ import Orang2 from "../images/soekarno.png";
 import Orang3 from "../images/hatta.png";
 import Orang4 from "../images/soeroso.png";
 import Orang5 from "../images/kihajar.png";
+import About1 from "../images/gallery/bpupki/sidang1.jpeg";
+import About2 from "../images/gallery/bpupki/sidang2.jpeg";
+import About3 from "../images/gallery/bpupki/sidang3.png";
+import About4 from "../images/gallery/bpupki/sidang4.jpeg";
 import "../css/bpupki.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -34,12 +38,44 @@ function Pages2() {
   return (
     <div>
       <div className="container-about-bpupki">
-        <h1>tes</h1>
-      </div>
-      <div className="container-tokoh-bpupki">
         <div className="background-circle">
           <span></span>
         </div>
+        <div className="image-about-container" data-aos="fade-up">
+          <div className="image1">
+            <img src={About1} alt="" />
+          </div>
+          <div className="image2">
+            <img src={About2} alt="" />
+          </div>
+          <div className="image3">
+            <img src={About3} alt="" />
+          </div>
+          <div className="image4">
+            <img src={About4} alt="" />
+          </div>
+        </div>
+        <div
+          className="about-bpupki-container"
+          style={{ position: "relative" }}
+        >
+          <div className="title-bpupki">
+            <h1>Apa itu BPUPKI ?</h1>
+          </div>
+          <div className="desc-bpupki">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae laborum nemo reiciendis quos ipsam. Illum cupiditate
+              obcaecati, itaque dolore pariatur, ad ratione enim molestiae
+              maxime fugit reprehenderit optio provident dicta possimus sapiente
+              voluptate aliquid laboriosam, non excepturi et cumque quam nihil
+              reiciendis? Necessitatibus rem porro aliquam consequuntur
+              cupiditate itaque voluptates!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="container-tokoh-bpupki">
         <div
           className="title-container"
           style={{ position: "relative" }}
