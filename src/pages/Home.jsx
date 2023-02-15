@@ -51,7 +51,7 @@ function Home() {
               Exhibition
             </h1>
           </div>
-          <div className="about-imagess" data-aos="fade-up">
+          <div className="about-imagess">
             <img src={Patung} alt="" className="images-patung" />
           </div>
 

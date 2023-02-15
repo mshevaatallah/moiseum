@@ -156,7 +156,7 @@
 
 .wrap {
   background-image: url("../images/backgroundtext.jpeg");
->>>>>>> aaaa0ffe2513fd3e789a4cad8ad2052c14b8d25c
+
   -webkit-background-clip: text;
   color: transparent;
 }
