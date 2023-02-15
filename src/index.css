@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700;900&family=Poppins:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;900&display=swap");
 * {
   margin: 0% 0% 0% 0%;
   padding: 0;
@@ -307,6 +308,7 @@ code {
     filter: blur(180px);
     -webkit-filter: blur(180px);
   }
+
   .ie-2 {
     width: 300px;
     filter: blur(180px);
@@ -368,7 +370,7 @@ code {
 }
 
 .about-imagess img {
-  width: 1000px;
+  width: 700px;
   margin-left: 100px;
   filter: brightness(60%);
 }
@@ -376,58 +378,7 @@ code {
 @media screen and (max-width: 30000px) {
   .about-imagess {
     position: absolute;
-    right: 120px;
-    top: -70px;
+    right: 300px;
+    bottom: 0px;
   }
-}
-
-.container-tes {
-  background-color: #191d23;
-  height: 100vh;
-}
-
-.card-team {
-  background-color: #191d23;
-  height: 100vh;
-  padding: 50px;
-  padding-bottom: 40px;
-  padding-top: 200px;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.card-team-item {
-  background-color: rgba(247, 249, 247, 0);
-  width: 200px;
-  height: 200px;
-  margin: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-
-  transition: all 0.3s ease-in-out;
-
-  border-width: 2px;
-  border-style: solid;
-  border-color: rgb(121, 198, 245);
-}
-
-/* .card-team-item:hover {
-  background-color: rgba(247, 249, 247, 0.1);
-  width: 200px;
-  height: 200px;
-  margin: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-
-  transition: all 0.3s ease-in-out;
-
-  border-width: 2px;
-  border-style: solid;
-  border-color: rgb(121, 198, 245);
-} */
-.images-team .orang-img {
-  border-radius: 10px;
-  transition: all 0.3s ease-in-out;
-  margin-top: -100px;
 }
