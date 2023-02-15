@@ -60,7 +60,9 @@ function Pages2() {
           style={{ position: "relative" }}
         >
           <div className="title-bpupki">
-            <h1>Apa itu BPUPKI ?</h1>
+            <h1>
+              Apa itu <span style={{ fontSize: 90 }}>BPUPKI ?</span>{" "}
+            </h1>
           </div>
           <div className="desc-bpupki">
             <p>
