@@ -1,34 +1,36 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { BsFillPlayFill } from "react-icons/bs";
-import Patung from "../images/grouping.png";
+import Patung from "../images/grouping2.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
   useEffect(() => {
     AOS.init();
   }, []);
-  const [isLoading, setLoading] = useState(true);
-  function someRequest() {
-    //Simulates a request; makes a "promise" that'll run for 2.5 seconds
-    return new Promise((resolve) => setTimeout(() => resolve(), 1500));
-  }
+  // const [isLoading, setLoading] = useState(true);
+  // function someRequest() {
+  //   //Simulates a request; makes a "promise" that'll run for 2.5 seconds
+  //   return new Promise((resolve) => setTimeout(() => resolve(), 1500));
+  // }
 
-  useEffect(() => {
-    someRequest().then(() => {
-      const loaderElement = document.querySelector(".loader-container");
-      if (loaderElement) {
-        loaderElement.remove();
-        setLoading(!isLoading);
-      }
-    });
-  });
+  // useEffect(() => {
+  //   someRequest().then(() => {
+  //     const loaderElement = document.querySelector(".loader-container");
+  //     if (loaderElement) {
+  //       loaderElement.remove();
+  //       setLoading(!isLoading);
+  //     }
+  //   });
+  // });
 
-  if (isLoading) {
-    //
-    return null;
-  }
+  // if (isLoading) {
+  //   //
+  //   return null;
+  // }
 
   return (
     <div>
@@ -49,7 +51,7 @@ function Home() {
               Exhibition
             </h1>
           </div>
-          <div className="about-imagess" data-aos="fade-up">
+          <div className="about-imagess">
             <img src={Patung} alt="" className="images-patung" />
           </div>
 
@@ -89,7 +91,7 @@ function Home() {
                 ...
               </div>
               <div className="play-button">
-                <div className="circle">
+                <div className="circle" onClick={() => navigate("/sejarah1")}>
                   <BsFillPlayFill color="#0c0d36" />
                 </div>
               </div>
