@@ -1,90 +1,158 @@
-@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700;900&family=Poppins:wght@500;600&display=swap");
-* {
-  margin: 0% 0% 0% 0%;
-  padding: 0;
-}
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* section about */
+.container-about-bpupki {
+  background-color: #191d23;
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+/* section tokoh */
 
-.first-section {
-  background: url("../images/sidangbpupki2.png") no-repeat center center;
-  background-size: cover;
+.background-circle {
+  background-color: #d0151871;
 
-  /* height: 100vh;
-  width: 100%;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  color: #fff; */
-  height: 500px;
-}
-.ie-3 {
-  background-color: #ca9b0c71;
-
-  filter: blur(140px);
-  -webkit-filter: blur(140px);
+  filter: blur(300px);
+  -webkit-filter: blur(300px);
   width: 800px;
   position: absolute;
   border-radius: 100%;
   border-top-top-radius: 110px; /* 100px of height + 10px of border */
   border-top-right-radius: 110px;
   height: 800px;
-  top: 0;
+  top: 500px;
   left: 0;
   transition: all 0.8s ease-in-out;
 }
-.title-content {
-  padding-top: 320px;
-  margin-left: 40px;
+
+.container-tokoh-bpupki {
+  background-color: #191d23;
+  height: 100vh;
+  display: flex;
+}
+
+.card-team {
+  padding-top: 50px;
+
+  display: flex;
+
+  margin-left: 50px;
+  overflow-x: auto;
+  transition: all 1s ease-in-out;
+}
+
+.card-team::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+.main-card {
+  background-color: #ffffff05;
+  border: 1px solid #db575a;
+  margin: 20px;
+  height: 350px;
+  border-radius: 10px;
   position: relative;
 }
+.card-team-item {
+  background-color: rgba(247, 249, 247, 0);
+  width: 220px;
+  height: 290px;
 
-.title-content .first {
-  font-size: 40px;
-
-  font-weight: 800;
-  letter-spacing: 5px;
-  line-height: 10px;
-  margin-left: 10px;
-  color: white;
+  border-radius: 10px 10px 10px 10px;
+  background: linear-gradient(
+    45deg,
+    #d71626 25%,
+    #444 25%,
+    #444 50%,
+    #e71126 50%,
+    #e4181f 75%,
+    #444 75%,
+    #444 100%
+  );
+  background-size: 40px 40px;
+  filter: grayscale(1);
+  animation: animateBg 4s linear infinite;
+  animation-play-state: paused;
 }
-.title-content .second {
-  font-size: 150px;
+
+.card-team-item img {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: height 0.5s;
+}
+.card-team-item img:hover {
+  height: 360px;
+}
+
+.card-team-item:hover {
+  animation-play-state: running;
+  filter: grayscale(0);
+}
+@keyframes animateBg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px;
+  }
+}
+.desc-hero {
+  margin-left: 15px;
+  margin-top: 5px;
+  color: rgb(185, 184, 184);
+  font-family: "Poppins", sans-serif;
+}
+
+.desc-hero span {
+  font-size: 10px;
   font-weight: 900;
+  line-height: 30px;
+  color: #e8ebec;
+}
+.desc-hero h4 {
+  font-size: 10px;
+}
+/* .card-team-item:hover {
+  background-color: rgba(247, 249, 247, 0.1);
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 
-  letter-spacing: 2px;
-  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
 
-  background-image: url("../images/bpupki1.jpeg");
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(121, 198, 245);
+} */
+.images-team .orang-img {
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  margin-top: -100px;
+}
+
+@media screen and (max-width: 1330px) {
+  .container-tokoh-bpupki {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-team {
+    margin-left: 0px;
+  }
+  .background-circle {
+    width: 300px;
+    filter: blur(150px);
+  }
+}
+/* @media screen and (min-width: 1330px) {
+  
+} */
+
+.wrap {
+  background-image: url("../images/backgroundtext.jpeg");
   -webkit-background-clip: text;
   color: transparent;
-  margin: auto;
-  margin-bottom: auto;
-}
-
-.title-content .secondd {
-  font-size: 150px;
-  font-weight: 900;
-
-  letter-spacing: 2px;
-  margin-bottom: 20px;
-  color: white;
-
-  margin: auto;
-  margin-bottom: auto;
 }

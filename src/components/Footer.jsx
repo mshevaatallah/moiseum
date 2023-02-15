@@ -32,9 +32,9 @@ function Footer() {
               </li>
             </ul>
             <div className="social">
-              <i class="fa-brands fa-facebook-f"></i>
+              <i className="fa-brands fa-facebook-f"></i>
 
-              <i class="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-instagram"></i>
             </div>
           </div>
           <div className="col col3" data-aos="fade-right">
