@@ -4,34 +4,14 @@ import Patung from "../images/grouping2.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
-import Person from "../images/person2.png";
 import Teams from "../components/Test";
 
 function Home() {
   useEffect(() => {
     AOS.init();
   }, []);
-  // const [isLoading, setLoading] = useState(true);
-  // function someRequest() {
-  //   //Simulates a request; makes a "promise" that'll run for 2.5 seconds
-  //   return new Promise((resolve) => setTimeout(() => resolve(), 1500));
-  // }
-
-  // useEffect(() => {
-  //   someRequest().then(() => {
-  //     const loaderElement = document.querySelector(".loader-container");
-  //     if (loaderElement) {
-  //       loaderElement.remove();
-  //       setLoading(!isLoading);
-  //     }
-  //   });
-  // });
-
-  // if (isLoading) {
-  //   //
-  //   return null;
-  // }
 
   return (
     <div>
@@ -92,9 +72,9 @@ function Home() {
                 ...
               </div>
               <div className="play-button">
-                <a className="circle" href="/sejarah-pembentukan-bpupki">
+                <Link className="circle" to="/sejarah-pembentukan-bpupki">
                   <BsFillPlayFill color="#0c0d36" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="card">
@@ -109,9 +89,9 @@ function Home() {
                 kemerdekaan Indonesia ...
               </div>
               <div className="play-button">
-                <a className="circle" href="/sejarah-pembentukan-ppki">
+                <Link className="circle" to="/sejarah-pembentukan-ppki">
                   <BsFillPlayFill color="#0c0d36" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="card">
@@ -128,12 +108,12 @@ function Home() {
                 Kemerdekaan. ...
               </div>
               <div className="play-button">
-                <a
+                <Link
                   className="circle"
-                  href="sejarah-pengeboman-hiroshimadannagasaki"
+                  to="sejarah-pengeboman-hiroshimadannagasaki"
                 >
                   <BsFillPlayFill color="#0c0d36" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="card">
@@ -150,9 +130,9 @@ function Home() {
                 kemerdekaan. Namun kedua tokoh Golongan Tua ...
               </div>
               <div className="play-button">
-                <a className="circle" href="/sejarah-peristiwa-rengasdengklok">
+                <Link className="circle" to="/sejarah-peristiwa-rengasdengklok">
                   <BsFillPlayFill color="#0c0d36" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="card">
@@ -169,12 +149,12 @@ function Home() {
                 ...
               </div>
               <div className="play-button">
-                <a
+                <Link
                   className="circle"
-                  href="/sejarah-penyusunan-naskahproklamasi"
+                  to="/sejarah-penyusunan-naskahproklamasi"
                 >
                   <BsFillPlayFill color="#0c0d36" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -15,26 +15,7 @@ function Pages2() {
   useEffect(() => {
     AOS.init();
   }, []);
-  // const [isLoading, setLoading] = useState(true);
-  // function someRequest() {
-  //   //Simulates a request; makes a "promise" that'll run for 2.5 seconds
-  //   return new Promise((resolve) => setTimeout(() => resolve(), 1000));
-  // }
 
-  // useEffect(() => {
-  //   someRequest().then(() => {
-  //     const loaderElement = document.querySelector(".loader-container");
-  //     if (loaderElement) {
-  //       loaderElement.remove();
-  //       setLoading(!isLoading);
-  //     }
-  //   });
-  // });
-
-  // if (isLoading) {
-  //   //
-  //   return null;
-  // }
   return (
     <div>
       <div className="container-about-bpupki">

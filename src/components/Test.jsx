@@ -4,14 +4,16 @@ import "../css/tes.css";
 function Teams() {
   return (
     <div>
-      <div className="ourteam-title">
-        <h1>
-          Our{" "}
-          <span style={{ fontFamily: "Fraunces" }}>
-            <span style={{ color: "#3595e9" }}>M</span>oiseum
-          </span>{" "}
-          Team
-        </h1>
+      <div className="ourteam-title-container">
+        <div className="container-title">
+          <h1>
+            Our{" "}
+            <span style={{ fontFamily: "Fraunces" }}>
+              <span style={{ color: "#3595e9" }}>M</span>oiseum
+            </span>{" "}
+            Team
+          </h1>
+        </div>
       </div>
 
       <div className="container-testing">
