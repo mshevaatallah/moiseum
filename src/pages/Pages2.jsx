@@ -8,6 +8,10 @@ import About1 from "../images/gallery/bpupki/sidang1.jpeg";
 import About2 from "../images/gallery/bpupki/sidang2.jpeg";
 import About3 from "../images/gallery/bpupki/sidang3.png";
 import About4 from "../images/gallery/bpupki/sidang4.jpeg";
+import Tugas1 from "../images/gallery/bpupki/tugas1.png";
+import Tugas2 from "../images/gallery/bpupki/tugas2.png";
+import Tugas3 from "../images/gallery/bpupki/tugas3.png";
+import Tugas4 from "../images/gallery/bpupki/tugas4.png";
 import "../css/bpupki.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -124,6 +128,94 @@ function Pages2() {
             <div className="desc-hero">
               <span>Ki Hajar Dewantara</span>
               <h4>Anggota BPUPKI</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container-tugas-bpupki">
+        <div className="tugas-bpupki-main">
+          <div className="title-tugas">
+            <h1>Tugas BPUPKI</h1>
+          </div>
+          <div className="list-tugas">
+            <hr />
+            <div className="list-tugas-content">
+              <div className="image-container-bpupki">
+                <img src={Tugas1} alt="" />
+              </div>
+
+              <h3>Membantu Panitia Sembilan Bersama Panitia Kecil</h3>
+              <div className="deskripsi-tugas">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  illo at enim autem illum doloremque beatae sequi quisquam
+                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
+                  vero! Animi obcaecati assumenda ullam velit quidem laborum
+                  nesciunt neque quibusdam cum consequatur earum a, unde natus
+                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="list-tugas" style={{ marginTop: 70 }}>
+            <hr />
+            <div className="list-tugas-content">
+              <div className="image-container-bpupki">
+                <img src={Tugas4} alt="" />
+              </div>
+
+              <h3>Membahas Dasar Negara</h3>
+              <div className="deskripsi-tugas">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  illo at enim autem illum doloremque beatae sequi quisquam
+                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
+                  vero! Animi obcaecati assumenda ullam velit quidem laborum
+                  nesciunt neque quibusdam cum consequatur earum a, unde natus
+                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="list-tugas" style={{ marginTop: 70 }}>
+            <hr />
+            <div className="list-tugas-content">
+              <div className="image-container-bpupki">
+                <img src={Tugas2} alt="" />
+              </div>
+
+              <h3>Membentuk Panitia Delapan</h3>
+              <div className="deskripsi-tugas">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  illo at enim autem illum doloremque beatae sequi quisquam
+                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
+                  vero! Animi obcaecati assumenda ullam velit quidem laborum
+                  nesciunt neque quibusdam cum consequatur earum a, unde natus
+                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="list-tugas" style={{ marginTop: 70 }}>
+            <hr />
+            <div className="list-tugas-content">
+              <div className="image-container-bpupki">
+                <img src={Tugas3} alt="" />
+              </div>
+
+              <h3>Menetapkan Dasar Negara</h3>
+              <div className="deskripsi-tugas">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  illo at enim autem illum doloremque beatae sequi quisquam
+                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
+                  vero! Animi obcaecati assumenda ullam velit quidem laborum
+                  nesciunt neque quibusdam cum consequatur earum a, unde natus
+                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                </p>
+              </div>
             </div>
           </div>
         </div>
