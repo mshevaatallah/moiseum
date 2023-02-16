@@ -6,6 +6,7 @@ import Pages4 from "./pages/Pages4";
 import Pages5 from "./pages/Pages5";
 import Pages6 from "./pages/Pages6";
 import Test from './pages/Test';
+import Coba from './pages/Cobabikinca'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/coba" element={<Coba/>}/>
           <Route path="/test" element={<Test/>}/>
           <Route path="/sejarah1" element={<Pages2 />} />
           <Route path="/sejarah2" element={<Pages3 />} />
