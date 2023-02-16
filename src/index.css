@@ -571,7 +571,7 @@ code {
   align-items: center;
   /* background-color: #191d23; */
   width: 100%;
-  height: 1745px;
+  height: 1480px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -606,15 +606,16 @@ code {
 
 }
 
+.contents:nth-child(1){
+  margin-bottom: 20px;
+}
+
 .contents:nth-child(2){
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   /* background-color: re; */
 }
 
 
-.contents:nth-child(2) img{
-
-}
 
 .contents:nth-child(2) .text{
   order: 2;
@@ -628,7 +629,6 @@ code {
 .satu{order: 2;}
 
 .satu{
-
   margin-right: -120px;
    margin-bottom: -85px;
    /* background-coor: rebeccapurple; */
