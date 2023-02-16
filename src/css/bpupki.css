@@ -105,9 +105,9 @@
 
 .container-tokoh-bpupki {
   background-color: #191d23;
-  height: 100vh;
+  height: 90vh;
   display: flex;
-  padding-top: 100px;
+  padding-top: 10px;
 }
 
 .card-team {
@@ -371,4 +371,85 @@
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
   margin-top: -100px;
+}
+
+.container-tugas-bpupki {
+  background-color: #191d23;
+  height: 300vh;
+}
+
+.tugas-bpupki-main .title-tugas h1 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 900;
+  font-family: "Darker Grotesque", sans-serif;
+  margin-left: 70px;
+  margin-bottom: 40px;
+}
+
+.list-tugas hr {
+  border-top: 3px dashed #db575967;
+  border-bottom: none;
+  width: 90%;
+  margin-top: 50px;
+  margin: auto;
+}
+
+.list-tugas-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.list-tugas-content h3 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Darker Grotesque", sans-serif;
+  max-width: 400px;
+}
+.image-container-bpupki {
+  width: 300px;
+}
+
+.image-container-bpupki img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  rotate: -10deg;
+  transition: all 0.3s ease-in-out;
+}
+
+.image-container-bpupki img:hover {
+  transform: scale(1.1);
+  rotate: 0deg;
+}
+
+.deskripsi-tugas p {
+  max-width: 300px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  color: #cec7c7;
+}
+
+@media screen and (max-width: 1060px) {
+  .list-tugas-content {
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  .tugas-bpupki-main .title-tugas h1 {
+    margin-left: 20px;
+    max-width: 300px;
+    line-height: 70px;
+  }
+  .list-tugas-content h3 {
+    margin-top: 30px;
+    line-height: 50px;
+  }
+  .image-container-bpupki img {
+    rotate: 0deg;
+  }
+  .deskripsi-tugas {
+    margin-top: 30px;
+  }
 }
