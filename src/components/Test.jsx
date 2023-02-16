@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Person from "../images/person2.png";
 import "../css/tes.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Teams() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div>
       <div className="ourteam-title-container">
@@ -17,7 +22,7 @@ function Teams() {
       </div>
 
       <div className="container-testing">
-        <div className="card-pembungkus">
+        <div className="card-pembungkus" data-aos="zoom-in">
           <div className="card-item">
             <img src={Person} alt="" />
           </div>
@@ -26,7 +31,7 @@ function Teams() {
             <span> Developer</span>
           </div>
         </div>
-        <div className="card-pembungkus">
+        <div className="card-pembungkus" data-aos="zoom-in">
           <div className="card-item">
             <img src={Person} alt="" />
           </div>
@@ -37,7 +42,7 @@ function Teams() {
         </div>
       </div>
       <div className="container-testing-2">
-        <div className="card-pembungkus">
+        <div className="card-pembungkus" data-aos="zoom-in">
           <div className="card-item">
             <img src={Person} alt="" />
           </div>
@@ -46,7 +51,7 @@ function Teams() {
             <span>Developer</span>
           </div>
         </div>
-        <div className="card-pembungkus">
+        <div className="card-pembungkus" data-aos="zoom-in">
           <div className="card-item">
             <img src={Person} alt="" />
           </div>
@@ -55,7 +60,7 @@ function Teams() {
             <span>Developer</span>
           </div>
         </div>
-        <div className="card-pembungkus">
+        <div className="card-pembungkus" data-aos="zoom-in">
           <div className="card-item">
             <img src={Person} alt="" />
           </div>
