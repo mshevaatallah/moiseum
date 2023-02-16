@@ -111,7 +111,7 @@
 }
 
 .card-team {
-  padding-top: 50px;
+  padding-top: 40px;
 
   display: flex;
 
@@ -244,4 +244,128 @@
   background-image: url("../images/backgroundtext.jpeg");
   -webkit-background-clip: text;
   color: transparent;
+}
+
+.cards-people-container {
+  background-color: #191d23;
+  height: 100vh;
+  display: flex;
+  padding-top: 160px;
+}
+
+.card-people {
+  padding-top: 40px;
+
+  display: flex;
+
+  margin-left: 50px;
+  overflow-x: auto;
+  transition: all 1s ease-in-out;
+}
+
+.card-people::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+.main-cardd {
+  background-color: #ffffff05;
+  border: 1px solid #db575a;
+  margin: 20px;
+  height: 350px;
+  border-radius: 10px;
+  position: relative;
+}
+.card-team-itemm {
+  background-color: rgba(247, 249, 247, 0);
+  width: 220px;
+  height: 290px;
+
+  border-radius: 10px 10px 10px 10px;
+  background: linear-gradient(
+    45deg,
+    #d71626 25%,
+    #444 25%,
+    #444 50%,
+    #e71126 50%,
+    #e4181f 75%,
+    #444 75%,
+    #444 100%
+  );
+  background-size: 40px 40px;
+  filter: grayscale(1);
+  animation: animateBg 4s linear infinite;
+  animation-play-state: paused;
+}
+
+.card-team-itemm img {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: height 0.5s;
+}
+
+.card-team-itemm .orang-imgg2 {
+  visibility: hidden;
+}
+.card-team-itemm .orang-imgg2:hover {
+  height: 360px;
+  visibility: visible;
+}
+.card-team-itemm .orang-imgg:hover {
+  visibility: hidden;
+}
+
+.card-team-itemm .orang-imgg2:hover {
+}
+
+.card-team-itemm:hover {
+  animation-play-state: running;
+  filter: grayscale(0);
+}
+@keyframes animateBg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px;
+  }
+}
+.desc-heroo {
+  margin-left: 15px;
+  margin-top: 5px;
+  color: rgb(185, 184, 184);
+  font-family: "Poppins", sans-serif;
+}
+
+.desc-heroo span {
+  font-size: 10px;
+  font-weight: 900;
+  line-height: 30px;
+  color: #e8ebec;
+}
+.desc-heroo h4 {
+  font-size: 10px;
+}
+/* .card-team-item:hover {
+  background-color: rgba(247, 249, 247, 0.1);
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+  transition: all 0.3s ease-in-out;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(121, 198, 245);
+} */
+.images-teamm .orang-imgg {
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  margin-top: -100px;
 }

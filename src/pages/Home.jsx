@@ -4,10 +4,11 @@ import Patung from "../images/grouping2.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
-import { useNavigate } from "react-router-dom";
+
+import Person from "../images/person2.png";
+import Teams from "../components/Test";
 
 function Home() {
-  const navigate = useNavigate();
   useEffect(() => {
     AOS.init();
   }, []);
@@ -45,13 +46,13 @@ function Home() {
           <div className="about-title fade-right" data-aos="fade-up">
             <h1>
               About{" "}
-              <span>
-                <span style={{ color: "#4aa9f7" }}>Moi</span>seum
+              <span style={{ fontFamily: "Fraunces", fontWeight: 900 }}>
+                <span style={{ color: "#4aa9f7" }}>M</span>oiseum
               </span>{" "}
               Exhibition
             </h1>
           </div>
-          <div className="about-imagess" data-aos="fade-up">
+          <div className="about-imagess">
             <img src={Patung} alt="" className="images-patung" />
           </div>
 
@@ -91,9 +92,9 @@ function Home() {
                 ...
               </div>
               <div className="play-button">
-                <div className="circle" onClick={() => navigate("/sejarah1")}>
+                <a className="circle" href="/sejarah-pembentukan-bpupki">
                   <BsFillPlayFill color="#0c0d36" />
-                </div>
+                </a>
               </div>
             </div>
             <div className="card">
@@ -108,9 +109,9 @@ function Home() {
                 kemerdekaan Indonesia ...
               </div>
               <div className="play-button">
-                <div className="circle">
+                <a className="circle" href="/sejarah-pembentukan-ppki">
                   <BsFillPlayFill color="#0c0d36" />
-                </div>
+                </a>
               </div>
             </div>
             <div className="card">
@@ -127,9 +128,12 @@ function Home() {
                 Kemerdekaan. ...
               </div>
               <div className="play-button">
-                <div className="circle">
+                <a
+                  className="circle"
+                  href="sejarah-pengeboman-hiroshimadannagasaki"
+                >
                   <BsFillPlayFill color="#0c0d36" />
-                </div>
+                </a>
               </div>
             </div>
             <div className="card">
@@ -146,9 +150,9 @@ function Home() {
                 kemerdekaan. Namun kedua tokoh Golongan Tua ...
               </div>
               <div className="play-button">
-                <div className="circle">
+                <a className="circle" href="/sejarah-peristiwa-rengasdengklok">
                   <BsFillPlayFill color="#0c0d36" />
-                </div>
+                </a>
               </div>
             </div>
             <div className="card">
@@ -165,9 +169,12 @@ function Home() {
                 ...
               </div>
               <div className="play-button">
-                <div className="circle">
+                <a
+                  className="circle"
+                  href="/sejarah-penyusunan-naskahproklamasi"
+                >
                   <BsFillPlayFill color="#0c0d36" />
-                </div>
+                </a>
               </div>
             </div>
           </div>
@@ -177,6 +184,7 @@ function Home() {
         </div> */}
       </div>
 
+      <Teams />
       <Footer />
     </div>
   );

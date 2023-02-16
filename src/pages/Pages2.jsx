@@ -42,16 +42,16 @@ function Pages2() {
           <span></span>
         </div>
         <div className="image-about-container" data-aos="fade-up">
-          <div className="image1">
+          <div className="image1" data-aos="fade-left">
             <img src={About1} alt="" />
           </div>
-          <div className="image2">
+          <div className="image2" data-aos="fade-up">
             <img src={About2} alt="" />
           </div>
-          <div className="image3">
+          <div className="image3" data-aos="fade-up">
             <img src={About3} alt="" />
           </div>
-          <div className="image4">
+          <div className="image4" data-aos="fade-right">
             <img src={About4} alt="" />
           </div>
         </div>
@@ -59,20 +59,17 @@ function Pages2() {
           className="about-bpupki-container"
           style={{ position: "relative" }}
         >
-          <div className="title-bpupki">
+          <div className="title-bpupki" data-aos="fade-right">
             <h1>
               Apa itu <span style={{ fontSize: 90 }}>BPUPKI ?</span>{" "}
             </h1>
           </div>
-          <div className="desc-bpupki">
+          <div className="desc-bpupki" data-aos="fade-left">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae laborum nemo reiciendis quos ipsam. Illum cupiditate
-              obcaecati, itaque dolore pariatur, ad ratione enim molestiae
-              maxime fugit reprehenderit optio provident dicta possimus sapiente
-              voluptate aliquid laboriosam, non excepturi et cumque quam nihil
-              reiciendis? Necessitatibus rem porro aliquam consequuntur
-              cupiditate itaque voluptates!
+              Badan Usaha Persiapan Kemerdekaan Indonesia atau Dokuritsu Junbi
+              Cosakai adalah badan yang didirikan untuk mempersiapkan komponen –
+              komponen kemerdekaan Indonesia. BPUPKI dibentuk pada tanggal 1
+              Maret 1945 dan baru diresmikan pada tanggal 29 Maret 1945
             </p>
           </div>
         </div>
@@ -134,7 +131,7 @@ function Pages2() {
             </div>
             <div className="desc-hero">
               <span>Raden Pandji Soeroso</span>
-              <h4>Ketua BPUPKI</h4>
+              <h4>Anggota BPUPKI</h4>
             </div>
           </div>
           <div className="main-card">
@@ -145,7 +142,7 @@ function Pages2() {
             </div>
             <div className="desc-hero">
               <span>Ki Hajar Dewantara</span>
-              <h4>Ketua BPUPKI</h4>
+              <h4>Anggota BPUPKI</h4>
             </div>
           </div>
         </div>
