@@ -3,14 +3,12 @@ import "../css/footer.css";
 import Logo from "../images/coeg.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Element from '../assets/element.png';
 function Footer() {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <div className="footers">
-      
       <footer>
         <div className="row">
           <div className="col col1" data-aos="fade-right">

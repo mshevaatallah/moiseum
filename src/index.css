@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700;900&family=Poppins:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Poppins:wght@200;400;600&display=swap');
+
+
 * {
   margin: 0% 0% 0% 0%;
   padding: 0;
@@ -451,4 +456,115 @@ code {
 
 }
 }
+
+
+
+/* _____________________________________________________________________________________________________________________________________ */
+
+
+
+/* Styling Card Profile */
+.row{
+  height: auto;
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: center;
+  margin-left: -60px;
+}
+
+.row:nth-child(2){
+  margin-top: 30px;
+}
+
+.row .cards{
+  margin:15px;
+}
+
+.baris1{
+  margin-left: 120px;
+
+  }
+ 
+  .cards-profile{
+  height: 100vw;
+  background-color: #191d23;
+}
+
+  .team{
+  color: #3595e9;
+  transition: .9s;
+}
+
+
+.team:hover{
+  filter: drop-shadow(0 0 15px rgb(121, 198, 245));
+}
+
+.titles{
+  color: #f3f8fb;
+  width: 100vw;
+  height: 60px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+
+
+.cards{
+  background-color: black ;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 220px;
+  height: 270px;
+  text-align: center;
+}
+
+.cards img{
+  width: 140px;
+}
+
+.cards:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.containers {
+  font-size: 13px;
+  margin-top: 30px;
+  color: white;
+  font-weight: 200;
+  font-family: 'Poppins', sans-serif;
+}
+
+.containers h3{
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+}
+
+
+
+@media screen and (max-width:800px) {
+
+  .cards-profile{
+    height: auto;
+  }
+  .row{
+    width: auto;
+    margin-left: -120px;
+  }
+
+  .cards{
+    flex: 100%;
+    max-width: 400px;
+  }
+
+
+}
+
+
+
+
+
+
 
