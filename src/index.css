@@ -290,7 +290,11 @@ code {
   color: #ecf1f3;
   border: 1px solid #3595e9;
 }
-
+@media screen and (max-width: 1330px) {
+  .about-imagess {
+    display: none;
+  }
+}
 @media screen and (max-width: 800px) {
   .explore {
     padding: 20px;
@@ -300,7 +304,6 @@ code {
     display: flex;
     flex-direction: column;
   }
-
   .container-hatta {
     display: none;
   }
