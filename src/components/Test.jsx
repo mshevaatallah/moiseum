@@ -10,9 +10,8 @@ function Teams() {
   return (
     <div>
       <div className="ourteam-title-container">
-        <div className="container-title">
+        <div className="container-title" data-aos="zoom-in">
           <h1>
-            Our{" "}
             <span style={{ fontFamily: "Fraunces" }}>
               <span style={{ color: "#3595e9" }}>M</span>oiseum
             </span>{" "}
