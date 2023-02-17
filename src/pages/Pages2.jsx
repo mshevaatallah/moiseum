@@ -46,7 +46,11 @@ function Pages2() {
         >
           <div className="title-bpupki" data-aos="fade-right">
             <h1>
-              Apa itu <span style={{ fontSize: 90 }}>BPUPKI ?</span>{" "}
+              Apa itu{" "}
+              <span style={{ fontSize: 90 }}>
+                {" "}
+                <span className="a">BPU</span>PKI ?
+              </span>{" "}
             </h1>
           </div>
           <div className="desc-bpupki" data-aos="fade-left">
@@ -134,13 +138,18 @@ function Pages2() {
       </div>
 
       <div className="container-tugas-bpupki">
+        <div className="background-circle-2">
+          <span></span>
+        </div>
         <div className="tugas-bpupki-main">
-          <div className="title-tugas">
-            <h1>Tugas BPUPKI</h1>
+          <div className="title-tugas" data-aos="fade-right">
+            <h1>
+              Tugas BPU<span className="wrap">PKI</span>
+            </h1>
           </div>
-          <div className="list-tugas">
+          <div className="list-tugas" data-aos="fade-up">
             <hr />
-            <div className="list-tugas-content">
+            <div className="list-tugas-content" data-aos="fade-up">
               <div className="image-container-bpupki">
                 <img src={Tugas1} alt="" />
               </div>
@@ -160,7 +169,7 @@ function Pages2() {
           </div>
           <div className="list-tugas" style={{ marginTop: 70 }}>
             <hr />
-            <div className="list-tugas-content">
+            <div className="list-tugas-content" data-aos="fade-up">
               <div className="image-container-bpupki">
                 <img src={Tugas4} alt="" />
               </div>
@@ -180,7 +189,7 @@ function Pages2() {
           </div>
           <div className="list-tugas" style={{ marginTop: 70 }}>
             <hr />
-            <div className="list-tugas-content">
+            <div className="list-tugas-content" data-aos="fade-up">
               <div className="image-container-bpupki">
                 <img src={Tugas2} alt="" />
               </div>
@@ -200,7 +209,7 @@ function Pages2() {
           </div>
           <div className="list-tugas" style={{ marginTop: 70 }}>
             <hr />
-            <div className="list-tugas-content">
+            <div className="list-tugas-content" data-aos="fade-up">
               <div className="image-container-bpupki">
                 <img src={Tugas3} alt="" />
               </div>

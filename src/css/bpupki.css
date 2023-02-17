@@ -15,6 +15,21 @@
   left: 0;
   transition: all 0.8s ease-in-out;
 }
+.background-circle-2 {
+  background-color: #d0151871;
+
+  filter: blur(600px);
+  -webkit-filter: blur(600px);
+  width: 500px;
+  position: absolute;
+  border-radius: 100%;
+  border-top-top-radius: 110px; /* 100px of height + 10px of border */
+  border-top-right-radius: 110px;
+  height: 800px;
+  top: 2000px;
+  right: 0;
+  transition: all 0.8s ease-in-out;
+}
 
 .container-about-bpupki {
   background-color: #191d23;
@@ -416,13 +431,13 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  rotate: -10deg;
+  rotate: 0deg;
   transition: all 0.3s ease-in-out;
 }
 
 .image-container-bpupki img:hover {
-  transform: scale(1.1);
-  rotate: 0deg;
+  transform: scale(0.9);
+  rotate: -10deg;
 }
 
 .deskripsi-tugas p {
@@ -430,7 +445,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 15px;
-  color: #cec7c7;
+  color: #eae6e6;
 }
 
 @media screen and (max-width: 1060px) {

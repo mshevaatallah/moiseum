@@ -291,7 +291,7 @@ code {
   border: 1px solid #3595e9;
 }
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 800px) {
   .explore {
     padding: 20px;
     padding-bottom: 40px;
