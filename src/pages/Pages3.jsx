@@ -1,13 +1,18 @@
 import React, { useEffect } from "react";
-import Orang from "../images/radjiman2.png";
-import Orang2 from "../images/soekarno.png";
-import Orang3 from "../images/hatta.png";
-import Orang4 from "../images/soeroso.png";
-import Orang5 from "../images/kihajar.png";
-import About1 from "../images/gallery/bpupki/sidang1.jpeg";
-import About2 from "../images/gallery/bpupki/sidang2.jpeg";
-import About3 from "../images/gallery/bpupki/sidang3.png";
-import About4 from "../images/gallery/bpupki/sidang4.jpeg";
+import Orang from "../images/gallery/ppki/hatta.png";
+import Orang2 from "../images/gallery/ppki/abdulwachid.png";
+import Orang3 from "../images/gallery/ppki/irsoekarno.png";
+import Orang4 from "../images/gallery/ppki/radjiman.png";
+import Orang5 from "../images/gallery/ppki/RAAwiranata.png";
+import Orang6 from "../images/gallery/ppki/soetarjokartohadisutomo.png";
+import About1 from "../images/gallery/ppki/sidang1.jpeg";
+import About2 from "../images/gallery/ppki/sidang2.webp";
+import About3 from "../images/gallery/ppki/galery2.jpeg";
+import About4 from "../images/gallery/ppki/galery3.jpeg";
+import Tugas1 from "../images/gallery/ppki/tugas1.png";
+import Tugas2 from "../images/gallery/ppki/tugas2.png";
+import Tugas3 from "../images/gallery/ppki/tugas3.png";
+import Tugas4 from "../images/gallery/ppki/tugas4.png";
 import "../css/bpupki.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -42,15 +47,20 @@ function Pages3() {
         >
           <div className="title-bpupki" data-aos="fade-right">
             <h1>
-              Apa itu <span style={{ fontSize: 90 }}>BPUPKI ?</span>{" "}
+              Apa itu{" "}
+              <span style={{ fontSize: 90 }}>
+                {" "}
+                <span className="a">PP</span>KI ?
+              </span>{" "}
             </h1>
           </div>
           <div className="desc-bpupki" data-aos="fade-left">
             <p>
-              Badan Usaha Persiapan Kemerdekaan Indonesia atau Dokuritsu Junbi
-              Cosakai adalah badan yang didirikan untuk mempersiapkan komponen –
-              komponen kemerdekaan Indonesia. BPUPKI dibentuk pada tanggal 1
-              Maret 1945 dan baru diresmikan pada tanggal 29 Maret 1945
+              PPKI atau Panitia Persiapan Kemerdekaan Indonesia merupakan badan
+              yang dibentuk untuk meneruskan persiapan kemerdekaan. Dalam bahasa
+              Jepang, PPKI disebut “Dokuritsu Junbi Inkai” dibentuk pada 7
+              Agustus 1945, setelah Badan Penyelidik Usaha-usaha Persiapan
+              Kemerdekaan (BPUPKI) dibubarkan.
             </p>
           </div>
         </div>
@@ -64,8 +74,8 @@ function Pages3() {
           <h1>
             Tokoh Pendiri{" "}
             <span style={{ fontSize: 80 }}>
-              <span className="wrap">BPU</span>
-              <span>PKI</span>
+              <span className="wrap">PP</span>
+              <span>KI</span>
             </span>
           </h1>
         </div>
@@ -85,6 +95,17 @@ function Pages3() {
             <div className="card-team-item">
               <div className="images-team">
                 <img src={Orang2} alt="" className="orang-img" width={300} />
+              </div>
+            </div>
+            <div className="desc-hero">
+              <span>Ir.Soekarno</span>
+              <h4>Ketua BPUPKI</h4>
+            </div>
+          </div>
+          <div className="main-card">
+            <div className="card-team-item">
+              <div className="images-team">
+                <img src={Orang6} alt="" className="orang-img" width={300} />
               </div>
             </div>
             <div className="desc-hero">
@@ -124,6 +145,107 @@ function Pages3() {
             <div className="desc-hero">
               <span>Ki Hajar Dewantara</span>
               <h4>Anggota BPUPKI</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container-tugas-bpupki">
+        <div className="background-circle-2">
+          <span></span>
+        </div>
+        <div className="tugas-bpupki-main">
+          <div className="title-tugas" data-aos="fade-right">
+            <h1>
+              Tugas PP<span className="wrap">KI</span>
+            </h1>
+          </div>
+          <div className="list-tugas" data-aos="fade-up">
+            <hr />
+            <div className="list-tugas-content" data-aos="fade-up">
+              <div className="image-container-bpupki">
+                <img src={Tugas1} alt="" />
+              </div>
+
+              <h3>
+                Menetapkan Undang-Undang Negara Republik Indonesia Tahun 1945.
+              </h3>
+              <div className="deskripsi-tugas">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  illo at enim autem illum doloremque beatae sequi quisquam
+                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
+                  vero! Animi obcaecati assumenda ullam velit quidem laborum
+                  nesciunt neque quibusdam cum consequatur earum a, unde natus
+                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="list-tugas" style={{ marginTop: 70 }}>
+            <hr />
+            <div className="list-tugas-content" data-aos="fade-up">
+              <div className="image-container-bpupki">
+                <img src={Tugas4} alt="" />
+              </div>
+
+              <h3>
+                Pancasila diakui sebagai dasar dari Negara Kesatuan Republik
+                Indonesia (NKRI).
+              </h3>
+              <div className="deskripsi-tugas">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  illo at enim autem illum doloremque beatae sequi quisquam
+                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
+                  vero! Animi obcaecati assumenda ullam velit quidem laborum
+                  nesciunt neque quibusdam cum consequatur earum a, unde natus
+                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="list-tugas" style={{ marginTop: 70 }}>
+            <hr />
+            <div className="list-tugas-content" data-aos="fade-up">
+              <div className="image-container-bpupki">
+                <img src={Tugas2} alt="" />
+              </div>
+
+              <h3>
+                Memilih Presiden dan Wakil Presiden, yaitu Ir. Soekarno dan Drs.
+                Mohammad Hatta.
+              </h3>
+              <div className="deskripsi-tugas">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  illo at enim autem illum doloremque beatae sequi quisquam
+                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
+                  vero! Animi obcaecati assumenda ullam velit quidem laborum
+                  nesciunt neque quibusdam cum consequatur earum a, unde natus
+                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="list-tugas" style={{ marginTop: 70 }}>
+            <hr />
+            <div className="list-tugas-content" data-aos="fade-up">
+              <div className="image-container-bpupki">
+                <img src={Tugas3} alt="" />
+              </div>
+
+              <h3>Membentuk Komite Nasional Indonesia Pusat (KNIP)</h3>
+              <div className="deskripsi-tugas">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  illo at enim autem illum doloremque beatae sequi quisquam
+                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
+                  vero! Animi obcaecati assumenda ullam velit quidem laborum
+                  nesciunt neque quibusdam cum consequatur earum a, unde natus
+                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                </p>
+              </div>
             </div>
           </div>
         </div>
