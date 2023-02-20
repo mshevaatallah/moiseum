@@ -23,10 +23,13 @@ function Home() {
         </div>
         <div className="about-border" data-aos="fade-up">
           <div className="about-title fade-right" data-aos="fade-up">
-            <h1>
+            <h1 style={{ fontFamily: "Darker Grotesque", fontWeight: 900 }}>
               About{" "}
-              <span style={{ fontFamily: "MuseoModerno", fontWeight: 900 }}>
-                <span style={{ color: "#4aa9f7" }}>M</span>oiseum
+              <span style={{ fontWeight: 900 }}>
+                <span style={{ color: "#4aa9f7", fontFamily: "MuseoModerno" }}>
+                  M
+                </span>
+                oiseum
               </span>{" "}
               Exhibition
             </h1>
