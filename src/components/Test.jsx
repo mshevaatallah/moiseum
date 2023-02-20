@@ -11,8 +11,8 @@ function Teams() {
     <div>
       <div className="ourteam-title-container">
         <div className="container-title" data-aos="zoom-in">
-          <h1>
-            <span style={{ fontFamily: "Fraunces" }}>
+          <h1 style={{ fontFamily: "MuseoModerno" }}>
+            <span style={{ fontFamily: "MuseoModerno" }}>
               <span style={{ color: "#3595e9" }}>M</span>oiseum
             </span>{" "}
             Team

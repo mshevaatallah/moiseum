@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import MainSection from "./components/MainSection";
 import Home from "./pages/Home";
 import Pages2 from "./pages/Pages2";
 import Pages3 from "./pages/Pages3";
@@ -28,6 +29,8 @@ function App() {
               path="/sejarah-penyusunan-naskahproklamasi"
               element={<Pages6 />}
             />
+
+            <Route path="/test1" element={<MainSection />} />
 
             <Route path="*" element={<h1>404 Not Found</h1>} />
           </Routes>

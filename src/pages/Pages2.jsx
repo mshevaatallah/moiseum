@@ -15,6 +15,8 @@ import Tugas4 from "../images/gallery/bpupki/tugas4.png";
 import "../css/bpupki.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import StoryBPUPKI from "../components/StoryBPUPKI";
+import Footer from "../components/Footer";
 function Pages2() {
   useEffect(() => {
     AOS.init();
@@ -226,8 +228,11 @@ function Pages2() {
                 </p>
               </div>
             </div>
+            <hr style={{ marginTop: 60 }} />
           </div>
         </div>
+        <StoryBPUPKI />
+        <Footer />
       </div>
     </div>
   );

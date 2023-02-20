@@ -26,7 +26,7 @@ function Home() {
           <div className="about-title fade-right" data-aos="fade-up">
             <h1>
               About{" "}
-              <span style={{ fontFamily: "Fraunces", fontWeight: 900 }}>
+              <span style={{ fontFamily: "MuseoModerno", fontWeight: 900 }}>
                 <span style={{ color: "#4aa9f7" }}>M</span>oiseum
               </span>{" "}
               Exhibition
