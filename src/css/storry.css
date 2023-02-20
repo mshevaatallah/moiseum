@@ -67,6 +67,8 @@
   align-items: center;
   justify-content: space-around;
 }
+.contents .plastic {
+}
 
 .contents:nth-child(1) {
   margin-bottom: 10px;

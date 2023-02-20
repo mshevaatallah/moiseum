@@ -59,15 +59,15 @@ code {
 .ie {
   background-color: #2571e471;
 
-  filter: blur(70px);
-  -webkit-filter: blur(70px);
+  filter: blur(330px);
+  -webkit-filter: blur(330px);
   width: 800px;
   position: absolute;
   border-radius: 100%;
   border-top-top-radius: 110px; /* 100px of height + 10px of border */
   border-top-right-radius: 110px;
-  height: 800px;
-  top: 0;
+  height: 200px;
+  top: 800px;
   right: 0;
   transition: all 0.8s ease-in-out;
 }

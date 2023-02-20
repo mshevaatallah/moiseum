@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Patung from "../images/patunghatta.png";
 import Patung2 from "../images/patung2.png";
 import Patung3 from "../images/patung3.png";
+import Plastic from "../images/plastic.jpeg";
 import "../css/storry.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -23,6 +24,7 @@ function StoryBPUPKI() {
       </div>
       <section className="materi" style={{}}>
         <div className="contents">
+          {/* <img className="plastic" src={Plastic} alt="" /> */}
           <div className="satu">
             <img src={Patung2} />
           </div>
@@ -45,7 +47,7 @@ function StoryBPUPKI() {
         </div>
         <div className="contents">
           <div className="satu">
-            <img src={Patung3} />
+            <img src={Patung3} style={{ position: "relative" }} />
           </div>
           <div className="text" data-aos="fade-left">
             <h1>We Take Care Of Our Clients</h1>

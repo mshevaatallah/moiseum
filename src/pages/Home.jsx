@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
 import Teams from "../components/Test";
+import MainSection from "../components/MainSection";
 
 function Home() {
   useEffect(() => {
@@ -15,9 +16,7 @@ function Home() {
 
   return (
     <div>
-      <div className="container-main">
-        <p>hai</p>
-      </div>
+      <MainSection />
       <div className="about-container">
         <div className="ie" data-aos="fade-right">
           <span></span>
