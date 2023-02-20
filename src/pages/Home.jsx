@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
 import Teams from "../components/Test";
+import MainSection from "../components/MainSection";
 
 function Home() {
   useEffect(() => {
@@ -15,19 +16,20 @@ function Home() {
 
   return (
     <div>
-      <div className="container-main">
-        <p>hai</p>
-      </div>
+      <MainSection />
       <div className="about-container">
         <div className="ie" data-aos="fade-right">
           <span></span>
         </div>
         <div className="about-border" data-aos="fade-up">
           <div className="about-title fade-right" data-aos="fade-up">
-            <h1>
+            <h1 style={{ fontFamily: "Darker Grotesque", fontWeight: 900 }}>
               About{" "}
-              <span style={{ fontFamily: "Fraunces", fontWeight: 900 }}>
-                <span style={{ color: "#4aa9f7" }}>M</span>oiseum
+              <span style={{ fontWeight: 900 }}>
+                <span style={{ color: "#4aa9f7", fontFamily: "MuseoModerno" }}>
+                  M
+                </span>
+                oiseum
               </span>{" "}
               Exhibition
             </h1>
