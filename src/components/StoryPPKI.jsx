@@ -6,7 +6,7 @@ import Patung3 from "../images/patung3.png";
 import "../css/storry.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-function StoryBPUPKI() {
+function StoryPPKI() {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -20,7 +20,7 @@ function StoryBPUPKI() {
         style={{ position: "relative" }}
         data-aos="fade-down"
       >
-        <h1>Cerita Sejarah BPUPKI</h1>
+        <h1>Cerita Sejarah PPKI</h1>
       </div>
       <section className="materi" style={{}}>
         <div className="contents">
@@ -33,7 +33,7 @@ function StoryBPUPKI() {
             style={{ position: "relative" }}
             data-aos="fade-right"
           >
-            <h1>Sidang Pertama BPUPKI (29 Mei – 1 Juni 1945)</h1>
+            <h1>Sidang PPKI Pertama (18 Agustus 1945)</h1>
             <p>
               (29 Mei 1945) Mohammad Yamin memaparkan uraian tentang kelengkapan
               negara yang dibutuhkan oleh Indonesia jika sudah merdeka nantinya.
@@ -56,7 +56,7 @@ function StoryBPUPKI() {
             <img src={Patung3} style={{ position: "relative" }} alt="" />
           </div>
           <div className="text" data-aos="fade-left">
-            <h1>Sidang Kedua BPUPKI (10 Juli – 17 Juli 1945)</h1>
+            <h1>Sidang PPKI Kedua (19 Agustus 1945)</h1>
             <p>
               1. Membahas rancangan Undang – Undang Dasar, rancangan bentuk
               negara, wilayah serta kewarganegaraan. 2. Membahas susunan
@@ -73,12 +73,12 @@ function StoryBPUPKI() {
             <img src={Patung} alt="" />
           </div>
           <div className="text" data-aos="fade-right">
-            <h1>Kapan BPUPKI Dibubarkan ?</h1>
+            <h1>Sidang PPKI Ketiga (20 Agustus 1945) , dan dibubarkannya </h1>
             <p>
-              BPUPKI akhirnya dibubarkan pada tanggal 7 Agustus 1945,dan sebagai
-              ganti dari pembubaran BPUPKI, Jepang membentuk Panitai Persiapan
-              Kemerdekaan Indonesia atau yang lebih dikenal dengan istilah PPKI
-              atau Dokuritsu Junbi Inkai.
+              1. Pembentukan Komite Nasional 2. Membentuk Partai Nasional
+              Indonesia 3. Membentuk Badan Keamanan Rakyat , dan Pada 29 Agustus
+              1945 PPKI dibubarkan bersamaan dengan pelantikan anggota Komite
+              Nasional Indonesia Pusat.
             </p>
             <button type="button">Hire Me</button>
           </div>
@@ -88,4 +88,4 @@ function StoryBPUPKI() {
   );
 }
 
-export default StoryBPUPKI;
+export default StoryPPKI;

@@ -16,6 +16,8 @@ import Tugas4 from "../images/gallery/ppki/tugas4.png";
 import "../css/bpupki.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import StoryPPKI from "../components/StoryPPKI";
+import Footer from "../components/Footer";
 function Pages3() {
   useEffect(() => {
     AOS.init();
@@ -87,7 +89,7 @@ function Pages3() {
               </div>
             </div>
             <div className="desc-hero">
-              <span>Dr.Radjiman Widiyoningrat</span>
+              <span>Mohammad Hatta</span>
               <h4>Ketua BPUPKI</h4>
             </div>
           </div>
@@ -98,7 +100,7 @@ function Pages3() {
               </div>
             </div>
             <div className="desc-hero">
-              <span>Ir.Soekarno</span>
+              <span>Abdoel Wachid</span>
               <h4>Ketua BPUPKI</h4>
             </div>
           </div>
@@ -109,7 +111,7 @@ function Pages3() {
               </div>
             </div>
             <div className="desc-hero">
-              <span>Ir.Soekarno</span>
+              <span>Soetarjo Kartohadikoesumo</span>
               <h4>Ketua BPUPKI</h4>
             </div>
           </div>
@@ -121,7 +123,7 @@ function Pages3() {
               </div>
             </div>
             <div className="desc-hero">
-              <span>Moh Hatta</span>
+              <span>Ir.Soekarno</span>
               <h4>Anggota BPUPKI</h4>
             </div>
           </div>
@@ -132,7 +134,7 @@ function Pages3() {
               </div>
             </div>
             <div className="desc-hero">
-              <span>Raden Pandji Soeroso</span>
+              <span>Radjiman Wedyodiningrat</span>
               <h4>Anggota BPUPKI</h4>
             </div>
           </div>
@@ -143,7 +145,7 @@ function Pages3() {
               </div>
             </div>
             <div className="desc-hero">
-              <span>Ki Hajar Dewantara</span>
+              <span>Wiranatakoesomo</span>
               <h4>Anggota BPUPKI</h4>
             </div>
           </div>
@@ -247,8 +249,11 @@ function Pages3() {
                 </p>
               </div>
             </div>
+            <hr style={{ marginTop: 60 }} />
           </div>
         </div>
+        <StoryPPKI />
+        <Footer />
       </div>
     </div>
   );

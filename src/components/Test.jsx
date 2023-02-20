@@ -11,7 +11,13 @@ function Teams() {
     <div>
       <div className="ourteam-title-container">
         <div className="container-title" data-aos="zoom-in">
-          <h1 style={{ fontFamily: "Darker Grotesque", fontWeight: 900 }}>
+          <h1
+            style={{
+              fontFamily: "Darker Grotesque",
+              fontWeight: 900,
+              lineHeight: 1,
+            }}
+          >
             <span>
               <span style={{ color: "#3595e9", fontFamily: "MuseoModerno" }}>
                 M

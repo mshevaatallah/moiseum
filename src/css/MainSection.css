@@ -83,6 +83,9 @@
     line-height: 50px;
     min-width: 300px;
   }
+  .virtual-text {
+    font-size: 30px;
+  }
 
   .main-image-content {
     width: 300px;
