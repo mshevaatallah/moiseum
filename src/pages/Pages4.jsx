@@ -1,40 +1,28 @@
 import React, { useEffect } from "react";
-import Orang from "../images/radjiman2.png";
-import Orang2 from "../images/soekarno.png";
-import Orang3 from "../images/hatta.png";
-import Orang4 from "../images/soeroso.png";
-import Orang5 from "../images/kihajar.png";
-import About1 from "../images/gallery/bpupki/sidang1.jpeg";
-import About2 from "../images/gallery/bpupki/sidang2.jpeg";
-import About3 from "../images/gallery/bpupki/sidang3.png";
-import About4 from "../images/gallery/bpupki/sidang4.jpeg";
+import Orang from "../images/gallery/ppki/hatta.png";
+import Orang2 from "../images/gallery/ppki/abdulwachid.png";
+import Orang3 from "../images/gallery/ppki/irsoekarno.png";
+import Orang4 from "../images/gallery/ppki/radjiman.png";
+import Orang5 from "../images/gallery/ppki/RAAwiranata.png";
+import Orang6 from "../images/gallery/ppki/soetarjokartohadikusumo.png";
+import About1 from "../images/gallery/ppki/sidang1.jpeg";
+import About2 from "../images/gallery/ppki/sidang2.webp";
+import About3 from "../images/gallery/ppki/galery2.jpeg";
+import About4 from "../images/gallery/ppki/galery3.jpeg";
+// import Tugas1 from "../images/gallery/ppki/tugas1.png";
+// import Tugas2 from "../images/gallery/ppki/tugas2.png";
+// import Tugas3 from "../images/gallery/ppki/tugas3.png";
+// import Tugas4 from "../images/gallery/ppki/tugas4.png";
 import "../css/bpupki.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+// import StoryPPKI from "../components/StoryPPKI";
+import Footer from "../components/Footer";
 function Pages4() {
   useEffect(() => {
     AOS.init();
   }, []);
-  // const [isLoading, setLoading] = useState(true);
-  // function someRequest() {
-  //   //Simulates a request; makes a "promise" that'll run for 2.5 seconds
-  //   return new Promise((resolve) => setTimeout(() => resolve(), 1000));
-  // }
 
-  // useEffect(() => {
-  //   someRequest().then(() => {
-  //     const loaderElement = document.querySelector(".loader-container");
-  //     if (loaderElement) {
-  //       loaderElement.remove();
-  //       setLoading(!isLoading);
-  //     }
-  //   });
-  // });
-
-  // if (isLoading) {
-  //   //
-  //   return null;
-  // }
   return (
     <div>
       <div className="container-about-bpupki">
@@ -59,17 +47,28 @@ function Pages4() {
           className="about-bpupki-container"
           style={{ position: "relative" }}
         >
-          <div className="title-bpupki" data-aos="fade-right">
+          <div
+            className="title-bpupki"
+            data-aos="fade-right"
+            style={{ maxWidth: 500 }}
+          >
             <h1>
-              Apa itu <span style={{ fontSize: 90 }}>BPUPKI ?</span>{" "}
+              Apa itu{" "}
+              <span style={{ fontSize: 90 }}>
+                {" "}
+                Pengeboman Hiroshima dan Nagasaki ?
+              </span>{" "}
             </h1>
           </div>
           <div className="desc-bpupki" data-aos="fade-left">
             <p>
-              Badan Usaha Persiapan Kemerdekaan Indonesia atau Dokuritsu Junbi
-              Cosakai adalah badan yang didirikan untuk mempersiapkan komponen –
-              komponen kemerdekaan Indonesia. BPUPKI dibentuk pada tanggal 1
-              Maret 1945 dan baru diresmikan pada tanggal 29 Maret 1945
+              Amerika Serikat menjatuhkan bom atom di kota Hiroshima dan
+              Nagasaki, Jepang, pada bulan Agustus 1945, tahap akhir Perang
+              Dunia Kedua. Amerika Serikat menjatuhkan bom dengan persetujuan
+              dari Britania Raya sebagaimana tertuang dalam Perjanjian Quebec.
+              Dua operasi pengeboman yang menewaskan sedikitnya 129.000 jiwa ini
+              merupakan penggunaan senjata nuklir masa perang untuk pertama kali
+              dan satu-satunya dalam sejarah.
             </p>
           </div>
         </div>
@@ -83,8 +82,8 @@ function Pages4() {
           <h1>
             Tokoh Pendiri{" "}
             <span style={{ fontSize: 80 }}>
-              <span className="wrap">BPU</span>
-              <span>PKI</span>
+              <span className="wrap">PP</span>
+              <span>KI</span>
             </span>
           </h1>
         </div>
@@ -96,7 +95,7 @@ function Pages4() {
               </div>
             </div>
             <div className="desc-hero">
-              <span>Dr.Radjiman Widiyoningrat</span>
+              <span>Mohammad Hatta</span>
               <h4>Ketua BPUPKI</h4>
             </div>
           </div>
@@ -107,7 +106,18 @@ function Pages4() {
               </div>
             </div>
             <div className="desc-hero">
-              <span>Ir.Soekarno</span>
+              <span>Abdoel Wachid</span>
+              <h4>Ketua BPUPKI</h4>
+            </div>
+          </div>
+          <div className="main-card">
+            <div className="card-team-item">
+              <div className="images-team">
+                <img src={Orang6} alt="" className="orang-img" width={300} />
+              </div>
+            </div>
+            <div className="desc-hero">
+              <span>Soetarjo Kartohadikoesumo</span>
               <h4>Ketua BPUPKI</h4>
             </div>
           </div>
@@ -119,7 +129,7 @@ function Pages4() {
               </div>
             </div>
             <div className="desc-hero">
-              <span>Moh Hatta</span>
+              <span>Ir.Soekarno</span>
               <h4>Anggota BPUPKI</h4>
             </div>
           </div>
@@ -130,7 +140,7 @@ function Pages4() {
               </div>
             </div>
             <div className="desc-hero">
-              <span>Raden Pandji Soeroso</span>
+              <span>Radjiman Wedyodiningrat</span>
               <h4>Anggota BPUPKI</h4>
             </div>
           </div>
@@ -141,12 +151,14 @@ function Pages4() {
               </div>
             </div>
             <div className="desc-hero">
-              <span>Ki Hajar Dewantara</span>
+              <span>Wiranatakoesomo</span>
               <h4>Anggota BPUPKI</h4>
             </div>
           </div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }

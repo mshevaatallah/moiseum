@@ -25,7 +25,10 @@ function Pages2() {
   return (
     <div>
       <div className="container-about-bpupki">
-        <div className="background-circle">
+        <div
+          className="background-circle"
+          style={{ backgroundColor: "#e8645f" }}
+        >
           <span></span>
         </div>
         <div className="image-about-container" data-aos="fade-up">

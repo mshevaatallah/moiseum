@@ -1,7 +1,7 @@
 /* section about */
 @import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700;900&family=Poppins:wght@500;600&display=swap");
 .background-circle {
-  background-color: #d0151871;
+  background-color: #5fa8e8;
 
   filter: blur(300px);
   -webkit-filter: blur(300px);
@@ -16,7 +16,7 @@
   transition: all 0.8s ease-in-out;
 }
 .background-circle-2 {
-  background-color: #d0151871;
+  background-color: #5fa8e8;
 
   filter: blur(600px);
   -webkit-filter: blur(600px);
@@ -141,7 +141,7 @@
 }
 .main-card {
   background-color: #ffffff05;
-  border: 1px solid #db575a;
+  border: 1px solid #f0f1f6;
   margin: 20px;
   height: 350px;
   border-radius: 10px;
@@ -287,7 +287,7 @@
 }
 .main-cardd {
   background-color: #ffffff05;
-  border: 1px solid #faf6f6;
+  border: 1px solid #db575a;
   margin: 20px;
   height: 350px;
   border-radius: 10px;
@@ -301,11 +301,11 @@
   border-radius: 10px 10px 10px 10px;
   background: linear-gradient(
     45deg,
-    #d71626 25%,
+    #2316d7 25%,
     #444 25%,
     #444 50%,
-    #e71126 50%,
-    #e4181f 75%,
+    #2316d7 50%,
+    #2316d7 75%,
     #444 75%,
     #444 100%
   );
@@ -325,19 +325,8 @@
 
   transition: height 0.5s;
 }
-
-.card-team-itemm .orang-imgg2 {
-  visibility: hidden;
-}
-.card-team-itemm .orang-imgg2:hover {
+.card-team-itemm img:hover {
   height: 360px;
-  visibility: visible;
-}
-.card-team-itemm .orang-imgg:hover {
-  visibility: hidden;
-}
-
-.card-team-itemm .orang-imgg2:hover {
 }
 
 .card-team-itemm:hover {
@@ -404,7 +393,7 @@
 }
 
 .list-tugas hr {
-  border-top: 3px dashed #db575967;
+  border-top: 3px dashed #1592d071;
   border-bottom: none;
   width: 90%;
   margin-top: 50px;
