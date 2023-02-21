@@ -17,6 +17,7 @@ function Home() {
   return (
     <div>
       <MainSection />
+      <hr className="hr" />
       <div className="about-container">
         <div className="ie" data-aos="fade-right">
           <span></span>
@@ -51,6 +52,7 @@ function Home() {
         </div>
       </div>
       {/* // ini adalah bagian about// */}
+      <hr className="hr" />
       <div className="explore">
         <div className="ie-2" data-aos="fade-right">
           <span></span>
@@ -165,6 +167,7 @@ function Home() {
           <img src={Patung} alt="" width={240} />
         </div> */}
       </div>
+      <hr className="hr" />
 
       <Teams />
       <Footer />

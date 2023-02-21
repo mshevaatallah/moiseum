@@ -60,7 +60,7 @@ function Pages4() {
               </span>{" "}
             </h1>
           </div>
-          <div className="desc-bpupki" data-aos="fade-left">
+          <div className="desc-bpupki desc-bom" data-aos="fade-left">
             <p>
               Amerika Serikat menjatuhkan bom atom di kota Hiroshima dan
               Nagasaki, Jepang, pada bulan Agustus 1945, tahap akhir Perang
@@ -73,6 +73,7 @@ function Pages4() {
           </div>
         </div>
       </div>
+
       <div className="container-tokoh-bpupki">
         <div
           className="title-container"
