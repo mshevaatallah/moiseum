@@ -40,6 +40,16 @@ code {
   z-index: -999;
 } */
 
+.hr {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .hr {
+    display: block;
+  }
+}
+
 .container-main {
   background-color: aqua;
   height: 70vh;

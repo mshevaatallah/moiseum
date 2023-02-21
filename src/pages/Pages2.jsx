@@ -68,6 +68,7 @@ function Pages2() {
           </div>
         </div>
       </div>
+      <hr className="hr" />
       <div className="container-tokoh-bpupki">
         <div
           className="title-container"
@@ -141,7 +142,7 @@ function Pages2() {
           </div>
         </div>
       </div>
-
+      <hr className="hr" />
       <div className="container-tugas-bpupki">
         <div className="background-circle-2">
           <span></span>
