@@ -6,13 +6,16 @@ import Patung3 from "../images/patung3.png";
 import "../css/storry.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-function StoryPPKI() {
+function StoryPPKI({ color }) {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <div style={{ paddingTop: 200 }}>
-      <div className="background-circle-story">
+      <div
+        className="background-circle-story"
+        style={{ backgroundColor: color }}
+      >
         <span></span>
       </div>
       <div

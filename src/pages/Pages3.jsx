@@ -13,7 +13,7 @@ import Tugas1 from "../images/gallery/ppki/tugas1.png";
 import Tugas2 from "../images/gallery/ppki/tugas2.png";
 import Tugas3 from "../images/gallery/ppki/tugas3.png";
 import Tugas4 from "../images/gallery/ppki/tugas4.png";
-import "../css/bpupki.css";
+import "../css/ppki.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import StoryPPKI from "../components/StoryPPKI";
@@ -83,7 +83,7 @@ function Pages3() {
         </div>
         <div className="card-team" data-aos="fade-right">
           <div className="main-card">
-            <div className="card-team-item">
+            <div className="card-team-itemm">
               <div className="images-team">
                 <img src={Orang} alt="" className="orang-img" width={200} />
               </div>
@@ -94,7 +94,7 @@ function Pages3() {
             </div>
           </div>
           <div className="main-card">
-            <div className="card-team-item">
+            <div className="card-team-itemm">
               <div className="images-team">
                 <img src={Orang2} alt="" className="orang-img" width={300} />
               </div>
@@ -105,7 +105,7 @@ function Pages3() {
             </div>
           </div>
           <div className="main-card">
-            <div className="card-team-item">
+            <div className="card-team-itemm">
               <div className="images-team">
                 <img src={Orang6} alt="" className="orang-img" width={300} />
               </div>
@@ -117,7 +117,7 @@ function Pages3() {
           </div>
           <div className="main-card">
             {" "}
-            <div className="card-team-item">
+            <div className="card-team-itemm">
               <div className="images-team">
                 <img src={Orang3} alt="" className="orang-img" width={300} />
               </div>
@@ -128,7 +128,7 @@ function Pages3() {
             </div>
           </div>
           <div className="main-card">
-            <div className="card-team-item">
+            <div className="card-team-itemm">
               <div className="images-team">
                 <img src={Orang4} alt="" className="orang-img" width={300} />
               </div>
@@ -139,7 +139,7 @@ function Pages3() {
             </div>
           </div>
           <div className="main-card">
-            <div className="card-team-item">
+            <div className="card-team-itemm">
               <div className="images-team">
                 <img src={Orang5} alt="" className="orang-img" width={300} />
               </div>
@@ -252,7 +252,7 @@ function Pages3() {
             <hr style={{ marginTop: 60 }} />
           </div>
         </div>
-        <StoryPPKI />
+        <StoryPPKI color="#5fa8e8" />
         <Footer />
       </div>
     </div>
