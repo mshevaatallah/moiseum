@@ -4,7 +4,7 @@ import Orang2 from "../images/gallery/ppki/abdulwachid.png";
 import Orang3 from "../images/gallery/ppki/irsoekarno.png";
 import Orang4 from "../images/gallery/ppki/radjiman.png";
 import Orang5 from "../images/gallery/ppki/RAAwiranata.png";
-import Orang6 from "../images/gallery/ppki/soetarjokartohadisutomo.png";
+import Orang6 from "../images/gallery/ppki/soetarjokartohadikusumo.png";
 import About1 from "../images/gallery/ppki/sidang1.jpeg";
 import About2 from "../images/gallery/ppki/sidang2.webp";
 import About3 from "../images/gallery/ppki/galery2.jpeg";
