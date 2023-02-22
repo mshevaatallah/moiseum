@@ -181,7 +181,7 @@
   transition: height 0.5s;
 }
 .card-team-item img:hover {
-  height: 360px;
+  height: 350px;
 }
 
 .card-team-item:hover {

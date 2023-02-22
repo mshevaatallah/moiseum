@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../css/footer.css";
-import Logo from "../images/coeg.png";
+import Logo from "../images/logomoiseum.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 function Footer() {

@@ -1,23 +1,21 @@
 import React, { useEffect } from "react";
-import Orang from "../images/gallery/ppki/hatta.png";
-import Orang2 from "../images/gallery/ppki/abdulwachid.png";
-import Orang3 from "../images/gallery/ppki/irsoekarno.png";
-import Orang4 from "../images/gallery/ppki/radjiman.png";
-import Orang5 from "../images/gallery/ppki/RAAwiranata.png";
-import Orang6 from "../images/gallery/ppki/soetarjokartohadikusumo.png";
-import About1 from "../images/gallery/ppki/sidang1.jpeg";
-import About2 from "../images/gallery/ppki/sidang2.webp";
-import About3 from "../images/gallery/ppki/galery2.jpeg";
-import About4 from "../images/gallery/ppki/galery3.jpeg";
-// import Tugas1 from "../images/gallery/ppki/tugas1.png";
-// import Tugas2 from "../images/gallery/ppki/tugas2.png";
-// import Tugas3 from "../images/gallery/ppki/tugas3.png";
-// import Tugas4 from "../images/gallery/ppki/tugas4.png";
-import "../css/bpupki.css";
+import Orang from "../images/gallery/pengeboman/mayorjendralcharles.png";
+import Orang2 from "../images/gallery/pengeboman/paulwarfield.png";
+
+import About1 from "../images/gallery/pengeboman/galeri1.jpeg";
+import About2 from "../images/gallery/pengeboman/galeri2.jpeg";
+import About3 from "../images/gallery/pengeboman/galeri3.jpeg";
+import About4 from "../images/gallery/pengeboman/galeri4.jpeg";
+import Tugas1 from "../images/gallery/pengeboman/gallery1.png";
+import Tugas2 from "../images/gallery/pengeboman/gallery2.png";
+import Tugas3 from "../images/gallery/pengeboman/gallery3.png";
+import Tugas4 from "../images/gallery/pengeboman/gallery4.png";
+import "../css/ppki.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import StoryPPKI from "../components/StoryPPKI";
+
 import Footer from "../components/Footer";
+import StoryJapan from "../components/StoryJapan";
 function Pages4() {
   useEffect(() => {
     AOS.init();
@@ -47,20 +45,16 @@ function Pages4() {
           className="about-bpupki-container"
           style={{ position: "relative" }}
         >
-          <div
-            className="title-bpupki"
-            data-aos="fade-right"
-            style={{ maxWidth: 500 }}
-          >
+          <div className="title-bpupki" data-aos="fade-right">
             <h1>
               Apa itu{" "}
-              <span style={{ fontSize: 90 }}>
+              <span style={{ fontSize: 70 }}>
                 {" "}
                 Pengeboman Hiroshima dan Nagasaki ?
               </span>{" "}
             </h1>
           </div>
-          <div className="desc-bpupki desc-bom" data-aos="fade-left">
+          <div className="desc-bpupki" data-aos="fade-left">
             <p>
               Amerika Serikat menjatuhkan bom atom di kota Hiroshima dan
               Nagasaki, Jepang, pada bulan Agustus 1945, tahap akhir Perang
@@ -73,7 +67,7 @@ function Pages4() {
           </div>
         </div>
       </div>
-
+      <hr className="hr" />
       <div className="container-tokoh-bpupki">
         <div
           className="title-container"
@@ -81,85 +75,137 @@ function Pages4() {
           data-aos="fade-right"
         >
           <h1>
-            Tokoh Pendiri{" "}
-            <span style={{ fontSize: 80 }}>
-              <span className="wrap">PP</span>
-              <span>KI</span>
-            </span>
+            Tokoh Pengeboman <span style={{ fontSize: 80 }}></span>
           </h1>
         </div>
         <div className="card-team" data-aos="fade-right">
           <div className="main-card">
-            <div className="card-team-item">
+            <div className="card-team-itemm">
               <div className="images-team">
-                <img src={Orang} alt="" className="orang-img" width={200} />
+                <img src={Orang} alt="" className="orang-img" width={300} />
               </div>
             </div>
             <div className="desc-hero">
-              <span>Mohammad Hatta</span>
-              <h4>Ketua BPUPKI</h4>
+              <span>Mayor Jendral Charles</span>
+              <h4>Perwira Pasukan</h4>
             </div>
           </div>
           <div className="main-card">
-            <div className="card-team-item">
+            <div className="card-team-itemm">
               <div className="images-team">
                 <img src={Orang2} alt="" className="orang-img" width={300} />
               </div>
             </div>
             <div className="desc-hero">
-              <span>Abdoel Wachid</span>
-              <h4>Ketua BPUPKI</h4>
-            </div>
-          </div>
-          <div className="main-card">
-            <div className="card-team-item">
-              <div className="images-team">
-                <img src={Orang6} alt="" className="orang-img" width={300} />
-              </div>
-            </div>
-            <div className="desc-hero">
-              <span>Soetarjo Kartohadikoesumo</span>
-              <h4>Ketua BPUPKI</h4>
-            </div>
-          </div>
-          <div className="main-card">
-            {" "}
-            <div className="card-team-item">
-              <div className="images-team">
-                <img src={Orang3} alt="" className="orang-img" width={300} />
-              </div>
-            </div>
-            <div className="desc-hero">
-              <span>Ir.Soekarno</span>
-              <h4>Anggota BPUPKI</h4>
-            </div>
-          </div>
-          <div className="main-card">
-            <div className="card-team-item">
-              <div className="images-team">
-                <img src={Orang4} alt="" className="orang-img" width={300} />
-              </div>
-            </div>
-            <div className="desc-hero">
-              <span>Radjiman Wedyodiningrat</span>
-              <h4>Anggota BPUPKI</h4>
-            </div>
-          </div>
-          <div className="main-card">
-            <div className="card-team-item">
-              <div className="images-team">
-                <img src={Orang5} alt="" className="orang-img" width={300} />
-              </div>
-            </div>
-            <div className="desc-hero">
-              <span>Wiranatakoesomo</span>
-              <h4>Anggota BPUPKI</h4>
+              <span>Paul Warfield</span>
+              <h4>Pilot Pesawat</h4>
             </div>
           </div>
         </div>
       </div>
+      <hr className="hr" />
 
-      <Footer />
+      <div className="container-tugas-bpupki">
+        <div className="background-circle-2">
+          <span></span>
+        </div>
+        <div className="tugas-bpupki-main">
+          <div className="title-tugas" data-aos="fade-right">
+            <h1>Gallery Sejarah</h1>
+          </div>
+          <div className="list-tugas" data-aos="fade-up">
+            <hr />
+            <div className="list-tugas-content" data-aos="fade-up">
+              <div className="image-container-bpupki">
+                <img src={Tugas1} alt="" />
+              </div>
+
+              <h3>Tentara yang sedang bertugas</h3>
+              <div className="deskripsi-tugas">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  illo at enim autem illum doloremque beatae sequi quisquam
+                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
+                  vero! Animi obcaecati assumenda ullam velit quidem laborum
+                  nesciunt neque quibusdam cum consequatur earum a, unde natus
+                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="list-tugas" style={{ marginTop: 70 }}>
+            <hr />
+            <div className="list-tugas-content" data-aos="fade-up">
+              <div className="image-container-bpupki">
+                <img src={Tugas4} alt="" />
+              </div>
+
+              <h3>
+                Ledakan hasil pengeboman yang terjadi di kota Hiroshima dan
+                Nagasaki
+              </h3>
+              <div className="deskripsi-tugas">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  illo at enim autem illum doloremque beatae sequi quisquam
+                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
+                  vero! Animi obcaecati assumenda ullam velit quidem laborum
+                  nesciunt neque quibusdam cum consequatur earum a, unde natus
+                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="list-tugas" style={{ marginTop: 70 }}>
+            <hr />
+            <div className="list-tugas-content" data-aos="fade-up">
+              <div className="image-container-bpupki">
+                <img src={Tugas2} alt="" />
+              </div>
+
+              <h3>
+                Wujud dari bom atom yang terjadi di kota Hiroshima dan Nagasaki
+              </h3>
+              <div className="deskripsi-tugas">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  illo at enim autem illum doloremque beatae sequi quisquam
+                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
+                  vero! Animi obcaecati assumenda ullam velit quidem laborum
+                  nesciunt neque quibusdam cum consequatur earum a, unde natus
+                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="list-tugas" style={{ marginTop: 70 }}>
+            <hr />
+            <div className="list-tugas-content" data-aos="fade-up">
+              <div className="image-container-bpupki">
+                <img src={Tugas3} alt="" />
+              </div>
+
+              <h3>
+                Ledakan besar yang difoto dari atas langit di kota Hiroshima dan
+                Nagasaki{" "}
+              </h3>
+              <div className="deskripsi-tugas">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  illo at enim autem illum doloremque beatae sequi quisquam
+                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
+                  vero! Animi obcaecati assumenda ullam velit quidem laborum
+                  nesciunt neque quibusdam cum consequatur earum a, unde natus
+                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                </p>
+              </div>
+            </div>
+            <hr style={{ marginTop: 60 }} />
+          </div>
+        </div>
+        <StoryJapan color="#5fa8e8" />
+        <Footer />
+      </div>
     </div>
   );
 }
