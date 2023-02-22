@@ -34,7 +34,7 @@ function StoryRengas({ color }) {
           <div
             className="text"
             style={{ position: "relative" }}
-            data-aos="fade-right"
+            data-aos="fade-left"
           >
             <h1>Awal mula terjadinya</h1>
             <p>
