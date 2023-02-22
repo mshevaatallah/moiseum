@@ -58,11 +58,10 @@ function Pages5() {
           </div>
           <div className="desc-bpupki" data-aos="fade-left">
             <p>
-              PPKI atau Panitia Persiapan Kemerdekaan Indonesia merupakan badan
-              yang dibentuk untuk meneruskan persiapan kemerdekaan. Dalam bahasa
-              Jepang, PPKI disebut “Dokuritsu Junbi Inkai” dibentuk pada 7
-              Agustus 1945, setelah Badan Penyelidik Usaha-usaha Persiapan
-              Kemerdekaan (BPUPKI) dibubarkan.
+              Peristiwa Rengasdengklok adalah peristiwa penculikan yang
+              dilakukan oleh sejumlah pemuda antara lain Soekarni, Wikana, Aidit
+              dan Chaerul Saleh dari perkumpulan "Menteng 31" terhadap Soekarno
+              dan Hatta.
             </p>
           </div>
         </div>
@@ -90,7 +89,7 @@ function Pages5() {
             </div>
             <div className="desc-hero">
               <span>Wikana</span>
-              <h4>Ketua BPUPKI</h4>
+              <h4>Anggota Golongan Muda</h4>
             </div>
           </div>
           <div className="main-card">
@@ -101,7 +100,7 @@ function Pages5() {
             </div>
             <div className="desc-hero">
               <span>Soekarni</span>
-              <h4>Ketua BPUPKI</h4>
+              <h4>Anggota Golongan Muda</h4>
             </div>
           </div>
           <div className="main-card">
@@ -112,7 +111,7 @@ function Pages5() {
             </div>
             <div className="desc-hero">
               <span>DN Aidit</span>
-              <h4>Ketua BPUPKI</h4>
+              <h4>Anggota Golongan Muda</h4>
             </div>
           </div>
           <div className="main-card">
@@ -124,7 +123,7 @@ function Pages5() {
             </div>
             <div className="desc-hero">
               <span>Chaerul Shaleh</span>
-              <h4>Anggota BPUPKI</h4>
+              <h4>Anggota Golongan Muda</h4>
             </div>
           </div>
         </div>

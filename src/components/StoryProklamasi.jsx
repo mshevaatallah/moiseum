@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 
-import Patung2 from "../images/gallery/rengasdengklok/patung1.png";
-import Patung3 from "../images/gallery/rengasdengklok/patung2.png";
+import Patung2 from "../images/gallery/proklamasi/patung.png";
+import Patung3 from "../images/gallery/proklamasi/patung2.png";
 
 import "../css/storry.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-function StoryRengas({ color }) {
+function StoryProklamasi({ color }) {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -29,7 +29,7 @@ function StoryRengas({ color }) {
         <div className="contents">
           {/* <img className="plastic" src={Plastic} alt="" /> */}
           <div className="satu">
-            <img src={Patung2} alt="" />
+            <img src={Patung3} alt="" />
           </div>
           <div
             className="text"
@@ -48,7 +48,7 @@ function StoryRengas({ color }) {
         </div>
         <div className="contents">
           <div className="satu">
-            <img src={Patung3} style={{ position: "relative" }} alt="" />
+            <img src={Patung2} style={{ position: "relative" }} alt="" />
           </div>
           <div className="text" data-aos="fade-up">
             <h1>Proses Penculikan</h1>
@@ -70,4 +70,4 @@ function StoryRengas({ color }) {
   );
 }
 
-export default StoryRengas;
+export default StoryProklamasi;
