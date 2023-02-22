@@ -13,7 +13,7 @@ import Tugas4 from "../images/gallery/pengeboman/gallery4.png";
 import "../css/ppki.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import StoryPPKI from "../components/StoryPPKI";
+
 import Footer from "../components/Footer";
 import StoryJapan from "../components/StoryJapan";
 function Pages4() {
