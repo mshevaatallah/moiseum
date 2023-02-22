@@ -23,7 +23,7 @@ function StoryRengas({ color }) {
         style={{ position: "relative" }}
         data-aos="fade-down"
       >
-        <h1>Cerita Sejarah Rengasdengklok</h1>
+        <h1 style={{ fontSize: 50 }}>Cerita Sejarah Rengasdengklok</h1>
       </div>
       <section className="materi" style={{}}>
         <div className="contents">

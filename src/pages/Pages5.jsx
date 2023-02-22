@@ -50,7 +50,7 @@ function Pages5() {
           <div className="title-bpupki" data-aos="fade-right">
             <h1>
               Pengertian
-              <span style={{ fontSize: 60 }}>
+              <span style={{ fontSize: 50 }}>
                 {" "}
                 Peristiwa Rengasdengklok
               </span>{" "}
@@ -137,7 +137,11 @@ function Pages5() {
         <div className="tugas-bpupki-main">
           <div className="title-tugas" data-aos="fade-right">
             <h1>
-              Tugas Peristiwa <span className="wrap">Ren</span>gasdengklok
+              Tugas Peristiwa
+              <span style={{ fontSize: 50 }}>
+                {" "}
+                <span className="wrap">Ren</span>gasdengklok
+              </span>
             </h1>
           </div>
           <div className="list-tugas" data-aos="fade-up">

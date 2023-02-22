@@ -446,8 +446,12 @@
   .tugas-bpupki-main .title-tugas h1 {
     margin-left: 20px;
     max-width: 300px;
-    line-height: 70px;
+    line-height: 60px;
   }
+  .tugas-bpupki-main .title-tugas h1 span {
+    line-height: 20px;
+  }
+
   .list-tugas-content h3 {
     margin-top: 30px;
     line-height: 40px;
