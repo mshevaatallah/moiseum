@@ -58,7 +58,7 @@ function StoryPPKI({ color }) {
           <div className="satu">
             <img src={Patung3} style={{ position: "relative" }} alt="" />
           </div>
-          <div className="text" data-aos="fade-left">
+          <div className="text">
             <h1>Sidang PPKI Kedua (19 Agustus 1945)</h1>
             <p>
               1. Membahas rancangan Undang – Undang Dasar, rancangan bentuk
