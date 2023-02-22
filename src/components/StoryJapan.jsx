@@ -34,7 +34,7 @@ function StoryJapan({ color }) {
           <div
             className="text"
             style={{ position: "relative" }}
-            data-aos="fade-left"
+            data-aos="fade-up"
           >
             <h1>Sejarah Singkat Pengeboman</h1>
             <p>
@@ -51,7 +51,7 @@ function StoryJapan({ color }) {
           <div className="satu">
             <img src={Patung3} style={{ position: "relative" }} alt="" />
           </div>
-          <div className="text" data-aos="fade-left">
+          <div className="text" data-aos="fade-up">
             <h1>Akibat Pengeboman Hiroshima dan Nagasaki</h1>
             <p>
               Bom atom tersebut mengakibatkan sekitar 74 ribu warga sipil

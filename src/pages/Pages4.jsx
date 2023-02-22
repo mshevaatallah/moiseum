@@ -47,10 +47,10 @@ function Pages4() {
         >
           <div className="title-bpupki" data-aos="fade-right">
             <h1>
-              Apa itu{" "}
+              Pengertian
               <span style={{ fontSize: 70 }}>
                 {" "}
-                Pengeboman Hiroshima dan Nagasaki ?
+                Pengeboman Hiroshima dan Nagasaki
               </span>{" "}
             </h1>
           </div>
@@ -87,7 +87,7 @@ function Pages4() {
             </div>
             <div className="desc-hero">
               <span>Mayor Jendral Charles</span>
-              <h4>Perwira Pasukan</h4>
+              <h4>Perwira Pasukan Amerika Serikat</h4>
             </div>
           </div>
           <div className="main-card">
@@ -98,7 +98,7 @@ function Pages4() {
             </div>
             <div className="desc-hero">
               <span>Paul Warfield</span>
-              <h4>Pilot Pesawat</h4>
+              <h4>Pilot Pesawat Amerika Serikat</h4>
             </div>
           </div>
         </div>
@@ -163,9 +163,7 @@ function Pages4() {
                 <img src={Tugas2} alt="" />
               </div>
 
-              <h3>
-                Wujud dari bom atom yang terjadi di kota Hiroshima dan Nagasaki
-              </h3>
+              <h3>Wujud dari bom atom yang digunakan oleh Amerika Serikat</h3>
               <div className="deskripsi-tugas">
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum

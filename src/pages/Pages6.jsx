@@ -1,40 +1,28 @@
 import React, { useEffect } from "react";
-import Orang from "../images/radjiman2.png";
-import Orang2 from "../images/soekarno.png";
-import Orang3 from "../images/hatta.png";
-import Orang4 from "../images/soeroso.png";
-import Orang5 from "../images/kihajar.png";
-import About1 from "../images/gallery/bpupki/sidang1.jpeg";
-import About2 from "../images/gallery/bpupki/sidang2.jpeg";
-import About3 from "../images/gallery/bpupki/sidang3.png";
-import About4 from "../images/gallery/bpupki/sidang4.jpeg";
-import "../css/bpupki.css";
+import Orang from "../images/gallery/proklamasi/hatta.png";
+import Orang2 from "../images/gallery/proklamasi/irsoekarno.png";
+import Orang3 from "../images/gallery/proklamasi/ahmadsoebarjo.png";
+
+import About1 from "../images/gallery/proklamasi/about1.jpeg";
+import About2 from "../images/gallery/proklamasi/about2.jpeg";
+import About3 from "../images/gallery/proklamasi/about3.jpeg";
+import About4 from "../images/gallery/proklamasi/about4.jpeg";
+import Tugas1 from "../images/gallery/rengasdengklok/tugas1.png";
+import Tugas2 from "../images/gallery/rengasdengklok/tugas2.png";
+
+import Tugas4 from "../images/gallery/rengasdengklok/tugas34.png";
+import "../css/ppki.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
+import Footer from "../components/Footer";
+
+import StoryProklamasi from "../components/StoryProklamasi";
 function Pages6() {
   useEffect(() => {
     AOS.init();
   }, []);
-  // const [isLoading, setLoading] = useState(true);
-  // function someRequest() {
-  //   //Simulates a request; makes a "promise" that'll run for 2.5 seconds
-  //   return new Promise((resolve) => setTimeout(() => resolve(), 1000));
-  // }
 
-  // useEffect(() => {
-  //   someRequest().then(() => {
-  //     const loaderElement = document.querySelector(".loader-container");
-  //     if (loaderElement) {
-  //       loaderElement.remove();
-  //       setLoading(!isLoading);
-  //     }
-  //   });
-  // });
-
-  // if (isLoading) {
-  //   //
-  //   return null;
-  // }
   return (
     <div>
       <div className="container-about-bpupki">
@@ -61,19 +49,22 @@ function Pages6() {
         >
           <div className="title-bpupki" data-aos="fade-right">
             <h1>
-              Apa itu <span style={{ fontSize: 90 }}>BPUPKI ?</span>{" "}
+              Sejarah
+              <span style={{ fontSize: 60 }}> Peristiwa Proklamasi</span>{" "}
             </h1>
           </div>
           <div className="desc-bpupki" data-aos="fade-left">
             <p>
-              Badan Usaha Persiapan Kemerdekaan Indonesia atau Dokuritsu Junbi
-              Cosakai adalah badan yang didirikan untuk mempersiapkan komponen –
-              komponen kemerdekaan Indonesia. BPUPKI dibentuk pada tanggal 1
-              Maret 1945 dan baru diresmikan pada tanggal 29 Maret 1945
+              Proklamasi Kemerdekaan Indonesia dilaksanakan pada hari Jumat, 17
+              Agustus 1945 tahun Masehi, atau tanggal 17 Agustus 2605 menurut
+              tahun Jepang, yang dibacakan oleh Soekarno dengan didampingi oleh
+              Drs. Mohammad Hatta bertempat di Jalan Pegangsaan Timur 56,
+              Jakarta Pusat.
             </p>
           </div>
         </div>
       </div>
+      <hr className="hr" />
       <div className="container-tokoh-bpupki">
         <div
           className="title-container"
@@ -81,71 +72,132 @@ function Pages6() {
           data-aos="fade-right"
         >
           <h1>
-            Tokoh Pendiri{" "}
-            <span style={{ fontSize: 80 }}>
-              <span className="wrap">BPU</span>
-              <span>PKI</span>
+            Tokoh Peristiwa{" "}
+            <span style={{ fontSize: 50 }}>
+              <span>Proklamasi</span>
             </span>
           </h1>
         </div>
         <div className="card-team" data-aos="fade-right">
           <div className="main-card">
-            <div className="card-team-item">
+            <div className="card-team-itemm">
               <div className="images-team">
-                <img src={Orang} alt="" className="orang-img" width={200} />
+                <img src={Orang2} alt="" className="orang-img" width={200} />
               </div>
             </div>
             <div className="desc-hero">
-              <span>Dr.Radjiman Widiyoningrat</span>
-              <h4>Ketua BPUPKI</h4>
+              <span>Ir Soekarno</span>
+              <h4>Pembaca Teks Proklamasi</h4>
             </div>
           </div>
           <div className="main-card">
-            <div className="card-team-item">
+            <div className="card-team-itemm">
               <div className="images-team">
-                <img src={Orang2} alt="" className="orang-img" width={300} />
+                <img src={Orang} alt="" className="orang-img" width={300} />
               </div>
             </div>
             <div className="desc-hero">
-              <span>Ir.Soekarno</span>
-              <h4>Ketua BPUPKI</h4>
+              <span>Moh Hatta</span>
+              <h4>Perumus Naskah Proklamasi</h4>
             </div>
           </div>
+
           <div className="main-card">
             {" "}
-            <div className="card-team-item">
+            <div className="card-team-itemm">
               <div className="images-team">
                 <img src={Orang3} alt="" className="orang-img" width={300} />
               </div>
             </div>
             <div className="desc-hero">
-              <span>Moh Hatta</span>
-              <h4>Anggota BPUPKI</h4>
-            </div>
-          </div>
-          <div className="main-card">
-            <div className="card-team-item">
-              <div className="images-team">
-                <img src={Orang4} alt="" className="orang-img" width={300} />
-              </div>
-            </div>
-            <div className="desc-hero">
-              <span>Raden Pandji Soeroso</span>
-              <h4>Anggota BPUPKI</h4>
-            </div>
-          </div>
-          <div className="main-card">
-            <div className="card-team-item">
-              <div className="images-team">
-                <img src={Orang5} alt="" className="orang-img" width={300} />
-              </div>
-            </div>
-            <div className="desc-hero">
-              <span>Ki Hajar Dewantara</span>
-              <h4>Anggota BPUPKI</h4>
+              <span>Ahmad Soebarjo</span>
+              <h4>Sebagai Penengah Golongan Muda</h4>
             </div>
           </div>
         </div>
+      </div>
+      <hr className="hr" />
+
+      <div className="container-tugas-bpupki">
+        <div className="background-circle-2">
+          <span></span>
+        </div>
+        <div className="tugas-bpupki-main">
+          <div className="title-tugas" data-aos="fade-right">
+            <h1>
+              Tugas Peristiwa <span className="wrap">Pr</span>oklamasi
+            </h1>
+          </div>
+          <div className="list-tugas" data-aos="fade-up">
+            <hr />
+            <div className="list-tugas-content" data-aos="fade-up">
+              <div className="image-container-bpupki">
+                <img src={Tugas1} alt="" />
+              </div>
+
+              <h3>
+                Untuk mendesak Soekarno dan Hatta agar segera memproklamasikan
+                kemerdekaan
+              </h3>
+              <div className="deskripsi-tugas">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  illo at enim autem illum doloremque beatae sequi quisquam
+                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
+                  vero! Animi obcaecati assumenda ullam velit quidem laborum
+                  nesciunt neque quibusdam cum consequatur earum a, unde natus
+                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="list-tugas" style={{ marginTop: 70 }}>
+            <hr />
+            <div className="list-tugas-content" data-aos="fade-up">
+              <div className="image-container-bpupki">
+                <img src={Tugas4} alt="" />
+              </div>
+
+              <h3>
+                Untuk menjauhkan Soekarno dan Hatta dari pengaruh pihak Jepang.
+              </h3>
+              <div className="deskripsi-tugas">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  illo at enim autem illum doloremque beatae sequi quisquam
+                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
+                  vero! Animi obcaecati assumenda ullam velit quidem laborum
+                  nesciunt neque quibusdam cum consequatur earum a, unde natus
+                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="list-tugas" style={{ marginTop: 70 }}>
+            <hr />
+            <div className="list-tugas-content" data-aos="fade-up">
+              <div className="image-container-bpupki">
+                <img src={Tugas2} alt="" />
+              </div>
+
+              <h3>
+                Menjadikan Proklamasi sebagai bukti perjuangan bangsa Indonesia
+              </h3>
+              <div className="deskripsi-tugas">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  illo at enim autem illum doloremque beatae sequi quisquam
+                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
+                  vero! Animi obcaecati assumenda ullam velit quidem laborum
+                  nesciunt neque quibusdam cum consequatur earum a, unde natus
+                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <StoryProklamasi color="#5fa8e8" />
+        <Footer />
       </div>
     </div>
   );
