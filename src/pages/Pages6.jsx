@@ -7,10 +7,10 @@ import About1 from "../images/gallery/proklamasi/about1.jpeg";
 import About2 from "../images/gallery/proklamasi/about2.jpeg";
 import About3 from "../images/gallery/proklamasi/about3.jpeg";
 import About4 from "../images/gallery/proklamasi/about4.jpeg";
-import Tugas1 from "../images/gallery/rengasdengklok/tugas1.png";
-import Tugas2 from "../images/gallery/rengasdengklok/tugas2.png";
+import Tugas1 from "../images/gallery/proklamasi/galeri1.png";
+import Tugas2 from "../images/gallery/proklamasi/galeri2.png";
 
-import Tugas4 from "../images/gallery/rengasdengklok/tugas34.png";
+import Tugas4 from "../images/gallery/proklamasi/galeri3.png";
 import "../css/ppki.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -125,7 +125,7 @@ function Pages6() {
         <div className="tugas-bpupki-main">
           <div className="title-tugas" data-aos="fade-right">
             <h1>
-              Tugas Peristiwa <span className="wrap">Pr</span>oklamasi
+              Gallery Peristiwa <span className="wrap">Pr</span>oklamasi
             </h1>
           </div>
           <div className="list-tugas" data-aos="fade-up">
@@ -135,10 +135,7 @@ function Pages6() {
                 <img src={Tugas1} alt="" />
               </div>
 
-              <h3>
-                Untuk mendesak Soekarno dan Hatta agar segera memproklamasikan
-                kemerdekaan
-              </h3>
+              <h3>Pembacaan Naskah Proklamasi</h3>
               <div className="deskripsi-tugas">
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
@@ -158,9 +155,8 @@ function Pages6() {
                 <img src={Tugas4} alt="" />
               </div>
 
-              <h3>
-                Untuk menjauhkan Soekarno dan Hatta dari pengaruh pihak Jepang.
-              </h3>
+              <h3>Perumusan Naskah Proklamasi</h3>
+
               <div className="deskripsi-tugas">
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
@@ -180,9 +176,7 @@ function Pages6() {
                 <img src={Tugas2} alt="" />
               </div>
 
-              <h3>
-                Menjadikan Proklamasi sebagai bukti perjuangan bangsa Indonesia
-              </h3>
+              <h3>Rumah Laksana Tadashi Maeda</h3>
               <div className="deskripsi-tugas">
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
