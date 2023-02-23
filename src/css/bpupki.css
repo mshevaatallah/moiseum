@@ -221,6 +221,9 @@
 
   transition: all 0.3s ease-in-out;
 
+
+  background-image: url("../images/sidangbpupki2.png");
+
   border-width: 2px;
   border-style: solid;
   border-color: rgb(121, 198, 245);
@@ -260,7 +263,10 @@
 
 .wrap {
   background-image: url("../images/backgroundtext.jpeg");
+
   background-clip: text;
+
+
   color: transparent;
 }
 
