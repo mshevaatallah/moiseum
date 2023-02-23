@@ -163,12 +163,10 @@ function Pages2() {
               <h3>Membantu Panitia Sembilan Bersama Panitia Kecil</h3>
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  BPUPKI membentuk panitia perumus dasar negara yang
+                  beranggotakan sembilan orang sehingga disebut Panitia
+                  Sembilan. Tugas Panitia Sembilan adalah menampung berbagai
+                  aspirasi tentang pembentukan dasar negara Indonesia merdeka.
                 </p>
               </div>
             </div>
@@ -183,12 +181,12 @@ function Pages2() {
               <h3>Membahas Dasar Negara</h3>
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  Sidang pertama BPUPKI membahas tentang rumusan dasar negara
+                  untuk Indonesia merdeka. Sidang BPUPKI yang pertama
+                  berlangsung dari tanggal 29 Mei sampai 1 Juni 1945. Dalam
+                  sidang pertama BPUPKI membahas tentang rumusan dasar negara,
+                  ada tiga tokoh nasionalis yang mengemukakan usulan-usulannya,
+                  yakni Moh Yamin, Mr Soepomo dan Ir Soekarno.
                 </p>
               </div>
             </div>
@@ -203,12 +201,11 @@ function Pages2() {
               <h3>Membentuk Panitia Delapan</h3>
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  Panitia Kecil atau yang juga disebut Panitia Delapan adalah
+                  panitia yang dibentuk oleh BPUPKI setelah sidang pertama
+                  berakhir pada 1 Juni 1945. Panitia Kecil diketuai oleh Bung
+                  Karno yang merumuskan dasar negara Pancasila dalam sidang
+                  pertama BPUPKI.
                 </p>
               </div>
             </div>
@@ -220,15 +217,14 @@ function Pages2() {
                 <img src={Tugas3} alt="" />
               </div>
 
-              <h3>Menetapkan Dasar Negara</h3>
+              <h3>Menghasilkan Jakarta Charter atau Piagam Jakarta</h3>
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  Piagam Jakarta juga sering disebut dengan Jakarta Charter, hal
+                  tersebut dikarenakan Piagam Jakarta merupakan piagam atau
+                  sebuah naskah yang disusun pada rapat Panitia Sembilan atau 9
+                  tokoh Indonesia tepatnya pada tanggal 22 Juni 1945. Panitia
+                  Sembilan yang dibentuk pada 1 Jun 1045.
                 </p>
               </div>
             </div>

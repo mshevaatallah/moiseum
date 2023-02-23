@@ -123,12 +123,12 @@ function Pages4() {
               <h3>Tentara yang sedang bertugas</h3>
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  Tentara Amerika Serikat yang sedang bertugas melawan Jepang
+                  selama Perang Dunia II menghadapi tantangan besar di medan
+                  perang Pasifik. Mereka menghadapi kondisi yang sangat berat
+                  seperti cuaca tropis yang panas dan lembap, medan yang sulit
+                  seperti hutan dan pegunungan, dan juga ancaman serangan
+                  mendadak dari Jepang.
                 </p>
               </div>
             </div>
@@ -146,12 +146,16 @@ function Pages4() {
               </h3>
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  Ledakan bom atom di Hiroshima dan Nagasaki merupakan salah
+                  satu tragedi besar dalam sejarah dunia. Pada tanggal 6 Agustus
+                  1945, pesawat Amerika Serikat, Enola Gay menjatuhkan bom atom
+                  di Hiroshima yang menyebabkan ledakan dahsyat yang
+                  menghancurkan sebagian besar kota. Tiga hari kemudian, pada 9
+                  Agustus, pesawat lainnya, Bockscar, menjatuhkan bom atom kedua
+                  di Nagasaki yang juga menghancurkan sebagian besar kota.
+                  Diperkirakan bahwa sekitar 200.000 orang tewas dalam ledakan
+                  bom atom dan dampak radiasinya, baik saat ledakan itu terjadi
+                  atau dalam beberapa tahun setelahnya.
                 </p>
               </div>
             </div>
@@ -166,12 +170,14 @@ function Pages4() {
               <h3>Wujud dari bom atom yang digunakan oleh Amerika Serikat</h3>
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  Bom atom yang digunakan oleh Amerika Serikat selama Perang
+                  Dunia II merupakan senjata paling mematikan yang pernah
+                  diciptakan dalam sejarah. Dikembangkan melalui proyek
+                  Manhattan, bom atom yang dijatuhkan di Hiroshima dan Nagasaki
+                  memiliki kekuatan ledakan yang belum pernah dilihat
+                  sebelumnya. Bom tersebut menggunakan reaksi fisi nuklir untuk
+                  menghasilkan ledakan dahsyat yang merusak segala sesuatu dalam
+                  radius yang luas.
                 </p>
               </div>
             </div>
@@ -189,12 +195,13 @@ function Pages4() {
               </h3>
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  Ledakan besar yang di foto di langit Hiroshima adalah hasil
+                  dari ledakan bom atom "Little Boy" yang dijatuhkan oleh
+                  Amerika Serikat pada tanggal 6 Agustus 1945. Ledakan ini
+                  adalah yang pertama kali dari dua bom atom yang dijatuhkan
+                  pada Jepang selama Perang Dunia II. Ledakan tersebut terjadi
+                  di ketinggian sekitar 600 meter dan menghasilkan sebuah bola
+                  api raksasa yang dapat terlihat dari jarak jauh.
                 </p>
               </div>
             </div>
