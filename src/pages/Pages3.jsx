@@ -176,12 +176,10 @@ function Pages3() {
               </h3>
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  UUD 1945 ini sendiri, disahkan sebagai Undang-Undang dasar
+                  negara oleh PPKI pada tanggal 18 Agustus 1945. Sejak tanggal
+                  27 Desember 1949, di Indonesia berlaku Konstitusi RIS dan
+                  sejak tanggal 17 Agustus 1950 di Indonesia berlaku UUDS 1950.
                 </p>
               </div>
             </div>
@@ -199,12 +197,11 @@ function Pages3() {
               </h3>
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  Pancasila merupakan pandangan hidup bangsa, memiliki fungsi
+                  utama sebagai dasar negara Indonesia. Dalam kedudukannya yang
+                  demikian Pancasila menempati kedudukan yang paling tinggi,
+                  sebagai sumber dari segala sumber hukum atau sebagai sumber
+                  hukum dasar nasional dalam tata hukum di Indonesia.
                 </p>
               </div>
             </div>
@@ -222,12 +219,13 @@ function Pages3() {
               </h3>
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  Pada tahun 1945, Jepang membentuk BPUPKI, yang menentukan
+                  Dasar negara dan Bentuk negara. Namun setelah menyerahnya
+                  Jepang pada 1945, Indonesia melaksanakan Kemerdekaan lebih
+                  cepat dan tentu, Pemilihan Presiden juga lebih cepat. Pada
+                  tanggal 18 Agustus 1945, Satu hari setelah kemerdekaan,
+                  Terjadilah pemilihan Presiden yang menghasilkan Soekarno dan
+                  Hatta sebagai Presiden dan Wakil Presiden Republik Indonesia.
                 </p>
               </div>
             </div>
@@ -242,12 +240,9 @@ function Pages3() {
               <h3>Membentuk Komite Nasional Indonesia Pusat (KNIP)</h3>
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  Tugas Komite Nasional Indonesia Pusat (KNIP) yang dibentuk
+                  oleh Panitia Persiapan Kemerdekaan Indonesia (PPKI) adalah
+                  membantu presiden sebelum MPR dan DPR dibentuk.
                 </p>
               </div>
             </div>

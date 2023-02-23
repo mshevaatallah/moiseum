@@ -138,12 +138,15 @@ function Pages6() {
               <h3>Pembacaan Naskah Proklamasi</h3>
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  Pembacaan teks proklamasi kemerdekaan Indonesia oleh Soekarno
+                  pada tanggal 17 Agustus 1945 di Jakarta merupakan momen
+                  penting dalam sejarah Indonesia. Pada saat itu, suasana
+                  politik di Indonesia sedang tidak stabil dan Belanda masih
+                  berupaya untuk kembali menguasai Indonesia setelah Jepang
+                  menyerah pada akhir Perang Dunia II. Dalam suasana yang sangat
+                  tegang dan tidak menentu, Soekarno membacakan teks proklamasi
+                  kemerdekaan Indonesia yang berisi pengumuman bahwa Indonesia
+                  telah merdeka.
                 </p>
               </div>
             </div>
@@ -159,12 +162,12 @@ function Pages6() {
 
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  Perumusan naskah proklamasi kemerdekaan Indonesia merupakan
+                  proses yang melibatkan beberapa tokoh nasionalis Indonesia
+                  pada saat itu, seperti Soekarno, Hatta, Ahmad Soebardjo, dan
+                  Soepomo. Proses perumusan naskah proklamasi dimulai pada bulan
+                  Juni 1945, ketika para tokoh nasionalis Indonesia mengadakan
+                  rapat di Jalan Pegangsaan Timur 56, Jakarta.
                 </p>
               </div>
             </div>
@@ -179,12 +182,10 @@ function Pages6() {
               <h3>Rumah Laksana Tadashi Maeda</h3>
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  Sejarah Teks Proklamasi Dirumuskan di Rumah Laksamana Tadashi
+                  Maeda. Teks proklamasi dirumuskan di rumah Laksamana Tadashi
+                  Maeda, di Jalan Meiji Dori, sekarang dikenal dengan nama Jalan
+                  Imam Bonjol Nomor 1, Jakarta Pusat.
                 </p>
               </div>
             </div>

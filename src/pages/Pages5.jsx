@@ -157,12 +157,12 @@ function Pages5() {
               </h3>
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  Mendesaknya Soekarno dan Hatta untuk segera memproklamasikan
+                  kemerdekaan Indonesia pada tanggal 17 Agustus 1945 terjadi
+                  karena keadaan politik pada waktu itu yang memerlukan langkah
+                  tegas dan cepat. Meskipun Indonesia masih dijajah oleh
+                  Belanda, kekalahan Jepang dalam Perang Dunia II memberikan
+                  peluang bagi bangsa Indonesia untuk merdeka.
                 </p>
               </div>
             </div>
@@ -179,12 +179,14 @@ function Pages5() {
               </h3>
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  Peristiwa Rengasdengklok terjadi pada 16 Agustus 1945, dimana
+                  sekelompok pemuda dan militer Indonesia mengepung kediaman
+                  Soekarno dan Hatta di Rengasdengklok, Jawa Barat, dengan
+                  tujuan untuk menjauhkan mereka dari pengaruh Jepang. Pada saat
+                  itu, Jepang masih menguasai Indonesia dan banyak kalangan
+                  nasionalis merasa bahwa Soekarno dan Hatta terlalu dekat
+                  dengan Jepang dan cenderung memihak pada kepentingan Jepang
+                  daripada kepentingan bangsa Indonesia.
                 </p>
               </div>
             </div>
@@ -201,12 +203,14 @@ function Pages5() {
               </h3>
               <div className="deskripsi-tugas">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  illo at enim autem illum doloremque beatae sequi quisquam
-                  veniam ducimus distinctio quibusdam ipsum itaque, quam officia
-                  vero! Animi obcaecati assumenda ullam velit quidem laborum
-                  nesciunt neque quibusdam cum consequatur earum a, unde natus
-                  tempore aliquam asperiores, est cupiditate aliquid. Veritatis?
+                  Proklamasi kemerdekaan Indonesia pada tanggal 17 Agustus 1945
+                  adalah bukti nyata perjuangan bangsa Indonesia untuk merdeka
+                  dari penjajahan. Proklamasi tersebut diumumkan oleh Soekarno
+                  dan Hatta, yang pada saat itu menjadi tokoh-tokoh penting
+                  dalam gerakan nasional Indonesia. Meskipun proses perjuangan
+                  kemerdekaan Indonesia tidak selalu mulus dan terdapat banyak
+                  tantangan yang dihadapi, Proklamasi tersebut menjadi tonggak
+                  penting dalam sejarah perjuangan kemerdekaan Indonesia.
                 </p>
               </div>
             </div>
