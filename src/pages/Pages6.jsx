@@ -26,7 +26,10 @@ function Pages6() {
   return (
     <div>
       <div className="container-about-bpupki">
-        <div className="background-circle">
+        <div
+          className="background-circle"
+          style={{ backgroundColor: "#a84d31" }}
+        >
           <span></span>
         </div>
         <div className="image-about-container" data-aos="fade-up">
@@ -119,7 +122,10 @@ function Pages6() {
       <hr className="hr" />
 
       <div className="container-tugas-bpupki">
-        <div className="background-circle-2">
+        <div
+          className="background-circle-2"
+          style={{ backgroundColor: "#a84d31" }}
+        >
           <span></span>
         </div>
         <div className="tugas-bpupki-main">
@@ -191,7 +197,7 @@ function Pages6() {
             </div>
           </div>
         </div>
-        <StoryProklamasi color="#5fa8e8" />
+        <StoryProklamasi color="#a84d31" />
         <Footer />
       </div>
     </div>

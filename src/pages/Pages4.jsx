@@ -24,7 +24,10 @@ function Pages4() {
   return (
     <div>
       <div className="container-about-bpupki">
-        <div className="background-circle">
+        <div
+          className="background-circle"
+          style={{ backgroundColor: "#278227" }}
+        >
           <span></span>
         </div>
         <div className="image-about-container" data-aos="fade-up">
@@ -106,7 +109,10 @@ function Pages4() {
       <hr className="hr" />
 
       <div className="container-tugas-bpupki">
-        <div className="background-circle-2">
+        <div
+          className="background-circle-2"
+          style={{ backgroundColor: "#278227" }}
+        >
           <span></span>
         </div>
         <div className="tugas-bpupki-main">
@@ -208,7 +214,7 @@ function Pages4() {
             <hr style={{ marginTop: 60 }} />
           </div>
         </div>
-        <StoryJapan color="#5fa8e8" />
+        <StoryJapan color="#278227" />
         <Footer />
       </div>
     </div>
