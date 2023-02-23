@@ -26,7 +26,10 @@ function Pages5() {
   return (
     <div>
       <div className="container-about-bpupki">
-        <div className="background-circle">
+        <div
+          className="background-circle"
+          style={{ backgroundColor: "#a87531" }}
+        >
           <span></span>
         </div>
         <div className="image-about-container" data-aos="fade-up">
@@ -131,7 +134,10 @@ function Pages5() {
       <hr className="hr" />
 
       <div className="container-tugas-bpupki">
-        <div className="background-circle-2">
+        <div
+          className="background-circle-2"
+          style={{ backgroundColor: "#a87531" }}
+        >
           <span></span>
         </div>
         <div className="tugas-bpupki-main">
@@ -216,7 +222,7 @@ function Pages5() {
             </div>
           </div>
         </div>
-        <StoryRengas color="#5fa8e8" />
+        <StoryRengas color="#a87531" />
         <Footer />
       </div>
     </div>

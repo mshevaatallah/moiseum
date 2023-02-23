@@ -36,12 +36,14 @@ function StoryProklamasi({ color }) {
             style={{ position: "relative" }}
             data-aos="fade-up"
           >
-            <h1>Awal mula terjadinya</h1>
+            <h1>Sejarah Singkat</h1>
             <p>
-              Menyerahnya Jepang kepada Sekutu menimbulkan tekanan Golongan Muda
-              agar Golongan Tua segera mempercepat proklamasi kemerdekaan. Namun
-              kedua tokoh Golongan Tua yaitu Ir. Soekarno dan Mohammad Hatta
-              memilih untuk menunggu keputusan Jepang dan hasil sidang PPKI.
+              Sejarah Proklamasi Kemerdekaan Republik Indonesia bisa dikatakan
+              cukup panjang. Namun, pada intinya sejarah Proklamasi Kemerdekaan
+              Republik Indonesia terbagi menjadi tiga bagian penting. Bagian
+              pertama, menjelaskan pertemuan di Dalat. Bagian kedua, menjelaskan
+              pertemuan Soekarno/Hatta dengan Jenderal Mayor Nishimura dan
+              Laksamana Muda Maeda. Dan bagian ketiga, Peristiwa Rengasdengklok
             </p>
             <button type="button">Hire Me</button>
           </div>
@@ -51,16 +53,14 @@ function StoryProklamasi({ color }) {
             <img src={Patung2} style={{ position: "relative" }} alt="" />
           </div>
           <div className="text" data-aos="fade-up">
-            <h1>Proses Penculikan</h1>
+            <h1>Latar Belakang</h1>
             <p>
-              Hingga pada tanggal 16 Agustus 1945 dini hari, Golongan Muda yaitu
-              Soekarni, Wikana, Aidit, dan Chaerul Saleh dari perkumpulan
-              “Menteng 31” menculik dan membawa Soekarno serta Hatta ke
-              Rengasdengklok Tujuan penculikan ini adalah agar para Golongan Tua
-              mau untuk segera melakukan proklamasi kemerdekana saat itu juga.
-              Perundingan yang alot berujung pada kesepakatan Golongan Muda dan
-              Golongan Tua untuk melaksanakan proklamasi pada tanggal 17 Agustus
-              1945.
+              Pada saat itu, sebelum Soekarno membacakan teks Proklamasi pada
+              tanggal 17 Agustus 1945, banyak sekali peristiwa yang terjadi yang
+              melatarbelakangi terjadinya pembacaan Proklamasi Kemerdekaan
+              Republik Indonesia, salah satu peristiwa tersebut adalah
+              dijatuhkannya bom di kota Hiroshima di tanggal 6 Agustus 1945 dan
+              tanggal 9 Agustus 1945 di kota Nagasaki.
             </p>
             <button type="button">Hire Me</button>
           </div>

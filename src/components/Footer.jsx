@@ -12,9 +12,9 @@ function Footer() {
       <footer>
         <div className="row">
           <div className="col col1" data-aos="fade-right">
-            <img src={Logo} />
+            <img src={Logo} alt="gambar logo moiseum" />
             <h1>...</h1>
-            <p>ENJOY THE ARTS AND GREECE HISTORY</p>
+            <p>BELAJAR SEJARAH BERSAMA MOISEUM</p>
           </div>
           <div className="col col2" data-aos="fade-right">
             <ul>
@@ -38,7 +38,7 @@ function Footer() {
             </div>
           </div>
           <div className="col col3" data-aos="fade-right">
-            <h3>BE THE FIRST TO HEAR VIRTUAL SMART-MUSEUM NEWS</h3>
+            <h3>JADILAH YANG PERTAMA UNTUK MENDENGAR KABAR DARI KAMI</h3>
             <input type="text" />
             <span>E-MAIL</span>
             <button>SUBSCRIBE</button>

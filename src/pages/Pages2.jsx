@@ -144,7 +144,10 @@ function Pages2() {
       </div>
       <hr className="hr" />
       <div className="container-tugas-bpupki">
-        <div className="background-circle-2">
+        <div
+          className="background-circle-2"
+          style={{ backgroundColor: "#e8645f" }}
+        >
           <span></span>
         </div>
         <div className="tugas-bpupki-main">
