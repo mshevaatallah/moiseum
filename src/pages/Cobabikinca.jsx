@@ -11,7 +11,7 @@ function Coba() {
             </div>
             <div className="text">
                 <h1>We Take Care Of Our Clients</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam ut veniam nesciunt est consequuntur culpa. Omnis, eius ex ducimus veritatis fugiat explicabo enim blanditiis cupiditate nobis quidem, officia eveniet laudantium dignissimos vel eos placeat sit quisquam provident id obcaecati a. Cumque modi earum autem voluptatibus eos doloribus minus ex enim.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam ut veniam nesciunt est consequuntur culpa. Omnis, eius ex ducimus veritatis fugiat explicabo enim blanditiis cupiditate nobis quidem, officia eveniet laudantium dignissimos vel eos placeat sit q    uisquam provident id obcaecati a. Cumque modi earum autem voluptatibus eos doloribus minus ex enim.</p>
                 <button type="button">Hire Me</button>
             </div>
         </div>

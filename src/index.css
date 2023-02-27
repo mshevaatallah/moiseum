@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700;900&family=Poppins:wght@500;600&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
 
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=MuseoModerno:wght@700&family=Poppins:wght@200;400;600&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Poppins:wght@200;400;600&display=swap');
 
 
@@ -61,12 +63,11 @@ code {
 }
 
 
-
-
 .container-main {
-  background-color: aqua;
+  background-color: #191d23;
   height: 70vh;
   margin: 0;
+
 }
 
 .explore {
@@ -610,12 +611,15 @@ code {
   margin-bottom: 20px;
 }
 
-.contents:nth-child(2){
-  margin-bottom: 20px;
-  /* background-color: re; */
+.contents:nth-child(2) img{
+  transform: scaleX(-1);
 }
 
+.contents:nth-child(2){
+  margin-bottom: 20px;
 
+  /* background-color: re; */
+}
 
 .contents:nth-child(2) .text{
   order: 2;
@@ -650,7 +654,7 @@ code {
   margin-bottom: 45px;
 }
 
-button{
+/* button{
   border-radius: 5px;
   background-color: transparent;
   color: white;
@@ -661,12 +665,12 @@ button{
   font-weight: bold;
   transition: .9s;
   display: none;
-}
+}  */
 
-button:hover{
+/* button:hover{
   filter: drop-shadow(0 0 15px rgb(121, 198, 245));
   transform: scale(1.2);
-}
+}  */
 
 @media screen and (max-width:800px) {
   .materi{
@@ -727,7 +731,178 @@ button:hover{
   .materi .contents img{
     display: none;
   }
+}
 
+/* Navbar Style */
+
+nav{
+  position: relative;
+  padding: 0 3rem;
+  z-index: 1;
+  padding: 10px;
+}
+
+.navbar .links li{
+  list-style: none;
 }
 
 
+
+nav .links a{
+  text-decoration: none;
+  color: #b6b9bb;
+  font-family:  "Darker Grotesque", sans-serif;;
+  font-size: 22px;
+  font-weight: bold;
+  transition: .5s ease;
+  padding-bottom: 5px;
+}
+
+nav .links a:hover{
+  border-bottom: white 3px solid;
+  padding-right: 4px;
+  transform: translateY(120px);
+}
+
+nav .dropdown_menu li a{
+  text-decoration: none;
+  color: #b6b9bb;
+  font-size: 1rem;
+  font-family:  "Darker Grotesque", sans-serif;;
+  font-size: 20px;
+  font-weight: bold;
+  transition: .5s ease;
+  padding-bottom: 5px;
+}
+
+nav .dropdown_menu li a:hover {
+  border-bottom: white 3px solid;
+  padding-right: 4px;
+  /* transform: translateY(120px); */
+}
+
+.navbar{
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar .olog a{
+  color: #ecf1f3;
+  text-decoration: none;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'MuseoModerno', cursive;
+  transition: .3s ease-in-out;
+}
+
+.navbar .olog a:hover{
+  font-size: 63px;
+}
+
+.navbar .olog{
+  margin-top: 15px;
+}
+
+.navbar .links{
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar .toogle_btn{
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.action_btn{
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(121, 198, 245);
+  color: #fff;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: scale 0.5s ease;
+}
+
+.action_btn:hover{
+  scale: 1.05;
+  color: #fff;
+  filter: drop-shadow(0 0 20px rgb(121, 198, 245));
+
+}
+
+.action_btn:active{
+  scale: 0.95;
+}
+
+
+
+.dropdown_menu{
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 70px;
+  height: 0;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height .6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu a{
+  font-size: 20px;
+}
+
+.dropdown_menu.open{
+  height: 220px;
+}
+
+.dropdown_menu li{
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.dropdown_menu .action_btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+@media screen and (max-width:750px){
+  .navbar .links,
+  .navbar .action_btn{
+    display: none;
+  }
+
+  .navbar .toogle_btn{
+    display: block;
+    font-size: 30px;
+  }
+
+  .dropdown_menu{
+    display: block;
+    top: 95px;
+  }
+
+  nav{
+    padding: 25px;
+  }
+
+  
+}

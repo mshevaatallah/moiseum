@@ -5,6 +5,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
 import Element from '../images/element.png'
+import Navbar from '../components/Navbar'
+
 
 function Home() {
   // useEffect(() => {
@@ -34,7 +36,7 @@ function Home() {
   return (
     <div>
       <div className="container-main">
-        <p>hai</p>
+      <Navbar/>
       </div>
       <div className="about-container">
         <div className="ie" data-aos="fade-right">
